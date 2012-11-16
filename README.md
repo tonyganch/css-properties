@@ -128,7 +128,7 @@ When choosing between prefixed/unprefixed property name, please keep in mind fol
 <tr><td>[border-width](http://dev.w3.org/csswg/css3-background/#the-border-width)</td><td>Safari, Chrome, Fx, IE, O</td><td></td><td></td><td></td><td></td></tr>
 <tr><td>[bottom](http://www.w3.org/TR/CSS2/visuren.html#propdef-bottom)</td><td>Safari, Chrome, Fx, IE, O</td><td></td><td></td><td></td><td></td></tr>
 <tr><td>[box-align](https://developer.mozilla.org/en-US/docs/CSS/box-align)</td><td></td><td>Safari, Chrome</td><td>Fx</td><td></td><td></td></tr>
-<tr><td>box-decoration-break</td><td>O</td><td>Chrome</td><td></td><td></td><td></td></tr>
+<tr><td>[box-decoration-break](http://www.w3.org/TR/css3-background/#the-box-decoration-break)</td><td>O</td><td>Chrome</td><td></td><td></td><td></td></tr>
 <tr><td>[box-direction](https://developer.mozilla.org/en-US/docs/CSS/box-direction)</td><td></td><td>Safari, Chrome</td><td>Fx</td><td></td><td></td></tr>
 <tr><td>[box-flex](https://developer.mozilla.org/en-US/docs/CSS/-moz-box-flex)</td><td></td><td>Safari, Chrome</td><td>Fx</td><td></td><td></td></tr>
 <tr><td>box-flex-group</td><td></td><td>Safari, Chrome</td><td></td><td></td><td></td></tr>
@@ -316,8 +316,8 @@ When choosing between prefixed/unprefixed property name, please keep in mind fol
 <tr><td>[nav-right](http://dev.w3.org/csswg/css3-ui/#nav-right)</td><td>O</td><td></td><td></td><td></td><td></td></tr>
 <tr><td>[nav-up](http://dev.w3.org/csswg/css3-ui/#nav-up)</td><td>O</td><td></td><td></td><td></td><td></td></tr>
 <tr><td>nbsp-mode</td><td></td><td>Safari, Chrome</td><td></td><td></td><td></td></tr>
-<tr><td>object-fit</td><td></td><td></td><td></td><td></td><td>O</td></tr>
-<tr><td>object-position</td><td></td><td></td><td></td><td></td><td>O</td></tr>
+<tr><td>[object-fit](http://dev.w3.org/csswg/css3-images/#object-fit)</td><td></td><td></td><td></td><td></td><td>O</td></tr>
+<tr><td>[object-position](http://dev.w3.org/csswg/css3-images/#object-position)</td><td></td><td></td><td></td><td></td><td>O</td></tr>
 <tr><td>[opacity](http://dev.w3.org/csswg/css3-color/#opacity)</td><td>Safari, Chrome, Fx, IE 9+, O</td><td></td><td></td><td></td><td></td></tr>
 <tr><td>[order](http://dev.w3.org/csswg/css3-flexbox/#order-property)</td><td>Fx 18+, O 12.10+</td><td>Chrome</td><td></td><td></td><td></td></tr>
 <tr><td>[orient](https://developer.mozilla.org/en-US/docs/CSS/-moz-orient)</td><td></td><td></td><td>Fx</td><td></td><td></td></tr>
@@ -336,7 +336,7 @@ When choosing between prefixed/unprefixed property name, please keep in mind fol
 <tr><td>[overflow](http://dev.w3.org/csswg/css3-box/#overflow1)</td><td>Safari, Chrome, Fx, IE, O</td><td></td><td></td><td></td><td></td></tr>
 <tr><td>overflow-scrolling</td><td></td><td>Safari iOS, Chrome</td><td></td><td></td><td></td></tr>
 <tr><td>[overflow-style]</td><td></td><td></td><td></td><td>IE 10</td><td></td></tr>
-<tr><td>overflow-wrap</td><td>Chrome</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>[overflow-wrap](http://www.w3.org/TR/css3-text/#overflow-wrap0)</td><td>Chrome</td><td></td><td></td><td></td><td></td></tr>
 <tr><td>[overflow-x](http://dev.w3.org/csswg/css3-box/#overflow-x)</td><td>Safari, Chrome, Fx, IE, O</td><td></td><td></td><td>IE</td><td></td></tr>
 <tr><td>[overflow-y](http://dev.w3.org/csswg/css3-box/#overflow-y)</td><td>Safari, Chrome, Fx, IE, O</td><td></td><td></td><td>IE</td><td></td></tr>
 <tr><td>[padding](http://dev.w3.org/csswg/css3-box/#the-padding)</td><td>Safari, Chrome, Fx, IE, O</td><td></td><td></td><td></td><td></td></tr>
@@ -477,7 +477,7 @@ When choosing between prefixed/unprefixed property name, please keep in mind fol
 <tr><td>user-zoom</td><td>Chrome</td><td></td><td></td><td></td><td></td></tr>
 <tr><td>[vertical-align](http://www.w3.org/TR/CSS1/#vertical-align)</td><td>Safari, Chrome, Fx, IE, O</td><td></td><td></td><td></td><td></td></tr>
 <tr><td>[visibility](http://dev.w3.org/csswg/css3-box/#the-visibility-property)</td><td>Safari, Chrome, Fx, IE, O</td><td></td><td></td><td></td><td></td></tr>
-<tr><td>white-space</td><td>Safari, Chrome, Fx, IE, O</td><td></td><td></td><td></td><td></td></tr>
+<tr><td>[white-space](http://dev.w3.org/csswg/css3-text/#white-space0)</td><td>Safari, Chrome, Fx, IE, O</td><td></td><td></td><td></td><td></td></tr>
 <tr><td>[widows](http://dev.w3.org/csswg/css3-break/#widows-orphans)</td><td>Safari, Chrome, IE, O</td><td></td><td></td><td></td><td></td></tr>
 <tr><td>[width](http://dev.w3.org/csswg/css3-box/#the-width-and-height-properties)</td><td>Safari, Chrome, Fx, IE, O</td><td></td><td></td><td></td><td></td></tr>
 <tr><td>[window-shadow](https://developer.mozilla.org/en-US/docs/CSS/-moz-window-shadow)</td><td></td><td></td><td>Fx</td><td></td><td></td></tr>
