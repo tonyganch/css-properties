@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js'></script>
+    </head>
+    <body>
+        <table id='table'></table>
+        <script>
+            $.getJSON('css-properties.json', function(data) {
+                var string = '';
+                $.each(data, function(key, val) {
+                    string += '<tr><td>';
+                    // Property name
+                    if (val.spec) {
+                        string += '<a href ="' + val.spec + '">' + key + '</a>';
+                    } else {
+                        string += key;
+                    }
+                    string += '</td><td>';
+                    // Unprefixed
+                    if (val.support.unprefixed) {
+                        string += val.support.unprefixed.all;
+                    }
+                    string += '</td><td>';
+                    // -webkit
+                    if (val.support.webkit) {
+                        string += val.support.webkit.all;
+                    }
+                    string += '</td><td>';
+                    // -moz
+                    if (val.support.moz) {
+                        string += val.support.moz.all;
+                    }
+                    string += '</td><td>';
+                    // -ms
+                    if (val.support.ms) {
+                        string += val.support.ms.all;
+                    }
+                    string += '</td><td>';
+                    // -o
+                    if (val.support.o) {
+                        string += val.support.o.all;
+                    }
+                    string += '</td></tr>';
+                });
+                $('#table').append(string);
+            }); 
+        </script>
+    </body>
+</html>

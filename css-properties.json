@@ -1,0 +1,431 @@
+{
+    "accelerator": {
+        "spec": "http://msdn.microsoft.com/en-us/library/ie/ms530713(v=vs.85).aspx",
+        "support": {
+            "ms": {
+                "all": "IE",
+                "ie": [8,9,10]
+            }
+        }
+    },
+    "align-content": {
+        "spec": "http://dev.w3.org/csswg/css3-flexbox/#align-content",
+        "support": {
+            "webkit": {
+                "all": "Chrome",
+                "chrome": [23]
+            },
+            "unprefixed": {
+                "all": "Fx 18+, O 12.10",
+                "fx": [18],
+                "opera": ["12.10"]
+            }
+        }
+    },
+    "align-items": {
+        "spec": "http://dev.w3.org/csswg/css3-flexbox/#align-items",
+        "support": {
+            "webkit": {
+                "all": "Chrome",
+                "chrome": [23]
+            },
+            "unprefixed": {
+                "all": "Fx 18+, O 12.10",
+                "fx": [18],
+                "opera": ["12.10"]
+            }
+        }
+    },
+    "align-self": {
+        "support": {
+            "spec": "http://dev.w3.org/csswg/css3-flexbox/#align-self",
+            "webkit": {
+                "all": "Chrome",
+                "chrome": [23]
+            },
+            "unprefixed": {
+                "all": "Fx 18+, O 12.10",
+                "fx": [18],
+                "opera": ["12.10"]
+            }
+        }
+    },
+    "animation": {
+        "spec": "http://dev.w3.org/csswg/css3-animations/#animation",
+        "support": {
+            "webkit": {
+                "all": "Safari, Chrome",
+                "safari": [4,5],
+                "chrome": [23]
+            },
+            "moz": {
+                "all": "Fx 5–15",
+                "fx": [5,6,7,8,9,10,11,12,13,14,15]
+            },
+            "o": {
+                "all": "O 12",
+                "opera": [12]
+            },
+            "unprefixed": {
+                "all": "Fx 16+, IE 10, O 12.10",
+                "fx": [16,17,18],
+                "ie": [10],
+                "opera": ["12.10"]
+            }
+        }
+    },
+    "animation-delay": {
+        "spec": "http://dev.w3.org/csswg/css3-animations/#animation-delay",
+        "support": {
+            "webkit": {
+                "all": "Safari, Chrome",
+                "safari": [4,5],
+                "chrome": [23]
+            },
+            "moz": {
+                "all": "Fx 5–15",
+                "fx": [5,6,7,8,9,10,11,12,13,14,15]
+            },
+            "o": {
+                "all": "O 12",
+                "opera": [12]
+            },
+            "unprefixed": {
+                "all": "Fx 16+, IE 10, O 12.10",
+                "fx": [16,17,18],
+                "ie": [10],
+                "opera": ["12.10"]
+            }
+        }
+    },
+    "animation-direction": {
+        "spec": "http://dev.w3.org/csswg/css3-animations/#animation-direction",
+        "support": {
+            "webkit": {
+                "all": "Safari, Chrome",
+                "safari": [4,5],
+                "chrome": [23]
+            },
+            "moz": {
+                "all": "Fx 5–15",
+                "fx": [5,6,7,8,9,10,11,12,13,14,15]
+            },
+            "o": {
+                "all": "O 12",
+                "opera": [12]
+            },
+            "unprefixed": {
+                "all": "Fx 16+, IE 10, O 12.10",
+                "fx": [16,17,18],
+                "ie": [10],
+                "opera": ["12.10"]
+            }
+        }
+    },
+    "animation-duration": {
+        "spec": "http://dev.w3.org/csswg/css3-animations/#animation-duration",
+        "support": {
+            "webkit": {
+                "all": "Safari, Chrome",
+                "safari": [4,5],
+                "chrome": [23]
+            },
+            "moz": {
+                "all": "Fx 5–15",
+                "fx": [5,6,7,8,9,10,11,12,13,14,15]
+            },
+            "o": {
+                "all": "O 12",
+                "opera": [12]
+            },
+            "unprefixed": {
+                "all": "Fx 16+, IE 10, O 12.10",
+                "fx": [16,17,18],
+                "ie": [10],
+                "opera": ["12.10"]
+            }
+        }
+    },
+    "animation-fill-mode": {
+        "spec": "http://dev.w3.org/csswg/css3-animations/#animation-fill-mode",
+        "support": {
+            "webkit": {
+                "all": "Safari 5+, Chrome",
+                "safari": [5],
+                "chrome": [23]
+            },
+            "moz": {
+                "all": "Fx 5–15",
+                "fx": [5,6,7,8,9,10,11,12,13,14,15]
+            },
+            "o": {
+                "all": "O 12",
+                "opera": [12]
+            },
+            "unprefixed": {
+                "all": "Fx 16+, IE 10, O 12.10",
+                "fx": [16,17,18],
+                "ie": [10],
+                "opera": ["12.10"]
+            }
+        }
+    },
+    "animation-iteration-count": {
+        "spec": "http://dev.w3.org/csswg/css3-animations/#animation-iteration-count",
+        "support": {
+            "webkit": {
+                "all": "Safari, Chrome",
+                "safari": [4,5],
+                "chrome": [23]
+            },
+            "moz": {
+                "all": "Fx 5–15",
+                "fx": [5,6,7,8,9,10,11,12,13,14,15]
+            },
+            "o": {
+                "all": "O 12",
+                "opera": [12]
+            },
+            "unprefixed": {
+                "all": "Fx 16+, IE 10, O 12.10",
+                "fx": [16,17,18],
+                "ie": [10],
+                "opera": ["12.10"]
+            }
+        }
+    },
+    "animation-name": {
+        "spec": "http://dev.w3.org/csswg/css3-animations/#animation-name",
+        "support": {
+            "webkit": {
+                "all": "Safari, Chrome",
+                "safari": [4,5],
+                "chrome": [23]
+            },
+            "moz": {
+                "all": "Fx 5–15",
+                "fx": [5,6,7,8,9,10,11,12,13,14,15]
+            },
+            "o": {
+                "all": "O 12",
+                "opera": [12]
+            },
+            "unprefixed": {
+                "all": "Fx 16+, IE 10, O 12.10",
+                "fx": [16,17,18],
+                "ie": [10],
+                "opera": ["12.10"]
+            }
+        }
+    },
+    "animation-play-state": {
+        "spec": "http://dev.w3.org/csswg/css3-animations/#animation-play-state",
+        "support": {
+            "webkit": {
+                "all": "Safari, Chrome",
+                "safari": [4,5],
+                "chrome": [23]
+            },
+            "moz": {
+                "all": "Fx 5–15",
+                "fx": [5,6,7,8,9,10,11,12,13,14,15]
+            },
+            "o": {
+                "all": "O 12",
+                "opera": [12]
+            },
+            "unprefixed": {
+                "all": "Fx 16+, IE 10, O 12.10",
+                "fx": [16,17,18],
+                "ie": [10],
+                "opera": ["12.10"]
+            }
+        }
+    },
+    "animation-timing-function": {
+        "spec": "http://dev.w3.org/csswg/css3-animations/#animation-timing-function",
+        "support": {
+            "webkit": {
+                "all": "Safari, Chrome",
+                "safari": [4,5],
+                "chrome": [23]
+            },
+            "moz": {
+                "all": "Fx 5–15",
+                "fx": [5,6,7,8,9,10,11,12,13,14,15]
+            },
+            "o": {
+                "all": "O 12",
+                "opera": [12]
+            },
+            "unprefixed": {
+                "all": "Fx 16+, IE 10, O 12.10",
+                "fx": [16,17,18],
+                "ie": [10],
+                "opera": ["12.10"]
+            }
+        }
+    },
+    "app-region": {
+        "support": {
+            "webkit": {
+                "all": "Chrome",
+                "chrome": [23]
+            }
+        }
+    },
+    "appearance": {
+        "spec": "http://css-tricks.com/almanac/properties/a/appearance/",
+        "support": {
+            "webkit": {
+                "all": "Safari, Chrome",
+                "safari": [4,5],
+                "chrome": [23]
+            },
+            "moz": {
+                "all": "Fx",
+                "fx": [4,5,6,7,8,9,10,11,12,13,14,15,16,17,18]
+            }
+        }
+    },
+    "aspect-ratio": {
+        "support": {
+            "webkit": {
+                "all": "Chrome",
+                "chrome": [23]
+            }
+        }
+    },
+    "backface-visibility": {
+        "spec": "http://dev.w3.org/csswg/css3-transforms/#backface-visibility-property",
+        "support": {
+            "webkit": {
+                "all": "Safari, Chrome",
+                "safari": [4,5],
+                "chrome": [23]
+            },
+            "moz": {
+                "all": "Fx 10–15",
+                "fx": [10,11,12,13,14,15]
+            },
+            "unprefixed": {
+                "all": "Fx 16+, IE 10",
+                "fx": [16,17,18],
+                "ie": [10]
+            }
+        }
+    },
+    "background": {
+        "spec": "http://www.w3.org/TR/CSS1/#background",
+        "support": {
+            "unprefixed": {
+                "all": "Safari, Chrome, Fx, IE, O",
+                "safari": [4,5],
+                "chrome": [23],
+                "fx": [4,5,6,7,8,9,10,11,12,13,14,15,16,17,18],
+                "ie": [8,9,10],
+                "o": ["11.60", "11.61", "11.62", "11.64", 12, "12.01", "12.02", "12.10"]
+            }
+        }
+    },
+    "background-attachment": {
+        "spec": "http://www.w3.org/TR/CSS1/#background-attachment",
+        "support": {
+            "unprefixed": {
+                "all": "Safari, Chrome, Fx, IE, O",
+                "safari": [4,5],
+                "chrome": [23],
+                "fx": [4,5,6,7,8,9,10,11,12,13,14,15,16,17,18],
+                "ie": [8,9,10],
+                "o": ["11.60", "11.61", "11.62", "11.64", 12, "12.01", "12.02", "12.10"]
+            }
+        }
+    },
+    "background-clip": {
+        "spec": "http://dev.w3.org/csswg/css3-background/#the-background-clip",
+        "support": {
+            "webkit": {
+                "all": "Safari, Chrome",
+                "safari": [4,5],
+                "chrome": [23]
+            },
+            "moz": {
+                "all": "Fx",
+                "fx": [4,5,6,7,8,9,10,11,12,13,14,15,16,17,18]
+            },
+            "unprefixed": {
+                "all": "Chrome, Fx, IE 9+, O",
+                "chrome": [23],
+                "fx": [4,5,6,7,8,9,10,11,12,13,14,15,16,17,18],
+                "ie": [9,10],
+                "opera": ["11.60", "11.61", "11.62", "11.64", 12, "12.01", "12.02", "12.10"]
+            }
+        }
+    },
+    "background-color": {
+        "spec": "http://www.w3.org/TR/CSS1/#background-color",
+        "support": {
+            "unprefixed": {
+                "all": "Safari, Chrome, Fx, IE, O",
+                "safari": [4,5],
+                "chrome": [23],
+                "fx": [4,5,6,7,8,9,10,11,12,13,14,15,16,17,18],
+                "ie": [8,9,10],
+                "opera": ["11.60", "11.61", "11.62", "11.64", 12, "12.01", "12.02", "12.10"]
+            }
+        }
+    },
+    "background-composite": {
+        "spec": "http://developer.apple.com/library/safari/documentation/appleapplications/reference/safaricssref/Articles/StandardCSSProperties.html#//apple_ref/doc/uid/TP30001266--webkit-background-composite",
+        "support": {
+            "webkit": {
+                "all": "Safari, Chrome",
+                "safari": [4,5],
+                "chrome": [23]
+            }
+        }
+    },
+    "background-image": {
+        "spec": "http://www.w3.org/TR/CSS1/#background-image",
+        "support": {
+            "unprefixed": {
+                "all": "Safari, Chrome, Fx, IE, O",
+                "safari": [4,5],
+                "chrome": [23],
+                "fx": [4,5,6,7,8,9,10,11,12,13,14,15,16,17,18],
+                "ie": [8,9,10],
+                "opera": ["11.60", "11.61", "11.62", "11.64", 12, "12.01", "12.02", "12.10"]
+            }
+        }
+    },
+    "background-inline-policy": {
+        "spec": "https://developer.mozilla.org/en-US/docs/CSS/-moz-background-inline-policy",
+        "support": {
+            "moz": {
+                "all": "Fx",
+                "fx": [4,5,6,7,8,9,10,11,12,13,14,15,16,17,18]
+            }
+        }
+    },
+    "background-origin": {
+        "spec": "http://dev.w3.org/csswg/css3-background/#the-background-origin",
+        "support": {
+            "webkit": {
+                "all": "Safari, Chrome",
+                "safari": [4,5],
+                "chrome": [23]
+            },
+            "moz": {
+                "all": "Fx",
+                "fx": [4,5,6,7,8,9,10,11,12,13,14,15,16,17,18]
+            },
+            "unprefixed": {
+                "all": "Chrome, Fx, IE 9+, O",
+                "chrome": [23],
+                "fx": [4,5,6,7,8,9,10,11,12,13,14,15,16,17,18],
+                "ie": [9,10],
+                "opera": ["11.60", "11.61", "11.62", "11.64", 12, "12.01", "12.02", "12.10"]
+            }
+        }
+    }
+}
