@@ -1,5 +1,6 @@
-{
-    "accelerator": {
+[
+    {
+        "name":  "accelerator",
         "spec": "http://msdn.microsoft.com/en-us/library/ie/ms530713(v=vs.85).aspx",
         "support": {
             "ms": {
@@ -8,7 +9,8 @@
             }
         }
     },
-    "align-content": {
+    {
+        "name": "align-content",
         "spec": "http://dev.w3.org/csswg/css3-flexbox/#align-content",
         "support": {
             "webkit": {
@@ -22,7 +24,8 @@
             }
         }
     },
-    "align-items": {
+    {
+        "name": "align-items",
         "spec": "http://dev.w3.org/csswg/css3-flexbox/#align-items",
         "support": {
             "webkit": {
@@ -36,9 +39,10 @@
             }
         }
     },
-    "align-self": {
+    {
+        "name": "align-self",
+        "spec": "http://dev.w3.org/csswg/css3-flexbox/#align-self",
         "support": {
-            "spec": "http://dev.w3.org/csswg/css3-flexbox/#align-self",
             "webkit": {
                 "all": "Chrome",
                 "chrome": [23]
@@ -50,7 +54,8 @@
             }
         }
     },
-    "animation": {
+    {
+        "name": "animation",
         "spec": "http://dev.w3.org/csswg/css3-animations/#animation",
         "support": {
             "webkit": {
@@ -74,7 +79,8 @@
             }
         }
     },
-    "animation-delay": {
+    {
+        "name": "animation-delay",
         "spec": "http://dev.w3.org/csswg/css3-animations/#animation-delay",
         "support": {
             "webkit": {
@@ -98,7 +104,8 @@
             }
         }
     },
-    "animation-direction": {
+    {
+        "name": "animation-direction",
         "spec": "http://dev.w3.org/csswg/css3-animations/#animation-direction",
         "support": {
             "webkit": {
@@ -122,7 +129,8 @@
             }
         }
     },
-    "animation-duration": {
+    {
+        "name": "animation-duration",
         "spec": "http://dev.w3.org/csswg/css3-animations/#animation-duration",
         "support": {
             "webkit": {
@@ -146,7 +154,8 @@
             }
         }
     },
-    "animation-fill-mode": {
+    {
+        "name": "animation-fill-mode",
         "spec": "http://dev.w3.org/csswg/css3-animations/#animation-fill-mode",
         "support": {
             "webkit": {
@@ -170,7 +179,8 @@
             }
         }
     },
-    "animation-iteration-count": {
+    {
+        "name": "animation-iteration-count",
         "spec": "http://dev.w3.org/csswg/css3-animations/#animation-iteration-count",
         "support": {
             "webkit": {
@@ -194,7 +204,8 @@
             }
         }
     },
-    "animation-name": {
+    {
+        "name": "animation-name",
         "spec": "http://dev.w3.org/csswg/css3-animations/#animation-name",
         "support": {
             "webkit": {
@@ -218,7 +229,8 @@
             }
         }
     },
-    "animation-play-state": {
+    {
+        "name": "animation-play-state",
         "spec": "http://dev.w3.org/csswg/css3-animations/#animation-play-state",
         "support": {
             "webkit": {
@@ -242,7 +254,8 @@
             }
         }
     },
-    "animation-timing-function": {
+    {
+        "name": "animation-timing-function",
         "spec": "http://dev.w3.org/csswg/css3-animations/#animation-timing-function",
         "support": {
             "webkit": {
@@ -266,7 +279,8 @@
             }
         }
     },
-    "app-region": {
+    {
+        "name": "app-region",
         "support": {
             "webkit": {
                 "all": "Chrome",
@@ -274,7 +288,8 @@
             }
         }
     },
-    "appearance": {
+    {
+        "name": "appearance",
         "spec": "http://css-tricks.com/almanac/properties/a/appearance/",
         "support": {
             "webkit": {
@@ -288,7 +303,8 @@
             }
         }
     },
-    "aspect-ratio": {
+    {
+        "name": "aspect-ratio",
         "support": {
             "webkit": {
                 "all": "Chrome",
@@ -296,7 +312,8 @@
             }
         }
     },
-    "backface-visibility": {
+    {
+        "name": "backface-visibility",
         "spec": "http://dev.w3.org/csswg/css3-transforms/#backface-visibility-property",
         "support": {
             "webkit": {
@@ -315,7 +332,8 @@
             }
         }
     },
-    "background": {
+    {
+        "name": "background",
         "spec": "http://www.w3.org/TR/CSS1/#background",
         "support": {
             "unprefixed": {
@@ -328,7 +346,8 @@
             }
         }
     },
-    "background-attachment": {
+    {
+        "name": "background-attachment",
         "spec": "http://www.w3.org/TR/CSS1/#background-attachment",
         "support": {
             "unprefixed": {
@@ -341,7 +360,8 @@
             }
         }
     },
-    "background-clip": {
+    {
+        "name": "background-clip",
         "spec": "http://dev.w3.org/csswg/css3-background/#the-background-clip",
         "support": {
             "webkit": {
@@ -362,7 +382,8 @@
             }
         }
     },
-    "background-color": {
+    {
+        "name": "background-color",
         "spec": "http://www.w3.org/TR/CSS1/#background-color",
         "support": {
             "unprefixed": {
@@ -375,7 +396,8 @@
             }
         }
     },
-    "background-composite": {
+    {
+        "name": "background-composite",
         "spec": "http://developer.apple.com/library/safari/documentation/appleapplications/reference/safaricssref/Articles/StandardCSSProperties.html#//apple_ref/doc/uid/TP30001266--webkit-background-composite",
         "support": {
             "webkit": {
@@ -385,7 +407,8 @@
             }
         }
     },
-    "background-image": {
+    {
+        "name": "background-image",
         "spec": "http://www.w3.org/TR/CSS1/#background-image",
         "support": {
             "unprefixed": {
@@ -398,7 +421,8 @@
             }
         }
     },
-    "background-inline-policy": {
+    {
+        "name" : "background-inline-policy",
         "spec": "https://developer.mozilla.org/en-US/docs/CSS/-moz-background-inline-policy",
         "support": {
             "moz": {
@@ -407,7 +431,8 @@
             }
         }
     },
-    "background-origin": {
+    {
+        "name": "background-origin",
         "spec": "http://dev.w3.org/csswg/css3-background/#the-background-origin",
         "support": {
             "webkit": {
@@ -427,5 +452,2826 @@
                 "opera": ["11.60", "11.61", "11.62", "11.64", 12, "12.01", "12.02", "12.10"]
             }
         }
+    },
+    {
+        "name": "background-origin-x",
+        "support": {
+            "unprefixed": {
+                "all": "Chrome",
+                "chrome": [23]
+            }
+        }
+    },
+    {
+        "name": "background-origin-y",
+        "support": {
+            "unprefixed": {
+                "all": "Chrome",
+                "chrome": [23]
+            }
+        }
+    },
+    {
+        "name": "background-position",
+        "spec": "http://www.w3.org/TR/CSS1/#background-position",
+        "support": {
+            "unprefixed": {
+                "all": "Safari, Chrome, Fx, IE, O",
+                "safari": [4,5],
+                "chrome": [23],
+                "fx": [4,5,6,7,8,9,10,11,12,13,14,15,16,17,18],
+                "ie": [8,9,10],
+                "opera": ["11.60", "11.61", "11.62", "11.64", 12, "12.01", "12.02", "12.10"]
+            }
+        }
+    },
+    {
+        "name": "background-position-x",
+        "spec": "http://developer.apple.com/library/safari/documentation/appleapplications/reference/safaricssref/Articles/StandardCSSProperties.html#//apple_ref/doc/uid/TP30001266-background_position_x",
+        "support": {
+            "ms": {
+                "all": "IE",
+                "ie": [8,9,10]
+            },
+            "unprefixed": {
+                "all": "Safari, Chrome",
+                "safari": [4,5],
+                "chrome": [23]
+            }
+        }
+    },
+    {
+        "name": "background-position-y",
+        "spec": "http://developer.apple.com/library/safari/documentation/appleapplications/reference/safaricssref/Articles/StandardCSSProperties.html#//apple_ref/doc/uid/TP30001266-background_position_y",
+        "support": {
+            "ms": {
+                "all": "IE",
+                "ie": [8,9,10]
+            },
+            "unprefixed": {
+                "all": "Safari, Chrome",
+                "safari": [4,5],
+                "chrome": [23]
+            }
+        }
+    },
+    {
+        "name": "background-repeat",
+        "spec": "http://www.w3.org/TR/CSS1/#background-repeat",
+        "support": {
+            "unprefixed": {
+                "all": "Safari, Chrome, Fx, IE, O",
+                "safari": [4,5],
+                "chrome": [23],
+                "fx": [4,5,6,7,8,9,10,11,12,13,14,15,16,17,18],
+                "ie": [8,9,10],
+                "opera": ["11.60", "11.61", "11.62", "11.64", 12, "12.01", "12.02", "12.10"]
+            }
+        }
+    },
+    {
+        "name": "background-repeat-x",
+        "support": {
+            "unprefixed": {
+                "all": "Chrome",
+                "chrome": [23]
+            }
+        }
+    },
+    {
+        "name": "background-repeat-y",
+        "support": {
+            "unprefixed": {
+                "all": "Chrome",
+                "chrome": [23]
+            }
+        }
+    },
+    {
+        "name": "background-size",
+        "spec": "http://dev.w3.org/csswg/css3-background/#the-background-size",
+        "support": {
+            "unprefixed": {
+                "all": "Safari, Chrome, Fx, IE 9+, O",
+                "safari": [4,5],
+                "chrome": [23],
+                "fx": [4,5,6,7,8,9,10,11,12,13,14,15,16,17,18],
+                "ie": [9,10],
+                "opera": ["11.60", "11.61", "11.62", "11.64", 12, "12.01", "12.02", "12.10"]
+            }
+        }
+    },
+    {
+        "name": "behavior",
+        "spec": "https://developer.mozilla.org/en-US/docs/CSS/-moz-binding",
+        "support": {
+            "ms": {
+                "all": "IE",
+                "ie": [8,9,10]
+            }
+        }
+    },
+    {
+        "name": "binding",
+        "spec": "http://msdn.microsoft.com/en-us/library/ie/ms530723(v=vs.85).aspx",
+        "support": {
+            "moz": {
+                "all": "Fx",
+                "fx": [4,5,6,7,8,9,10,11,12,13,14,15,16,17,18]
+            }
+        }
+    },
+    {
+        "name": "blend-mode",
+        "support": {
+            "webkit": {
+                "all": "Chrome",
+                "chrome": [23]
+            }
+        }
+    },
+    {
+        "name": "block-progression",
+        "spec": "http://msdn.microsoft.com/en-us/library/ie/dd229917(v=vs.85).aspx",
+        "support": {
+            "ms": {
+                "all": "IE",
+                "ie": [8,9,10]
+            }
+        }
+    },
+    {
+        "name": "border",
+        "spec": "http://www.w3.org/TR/CSS1/#border",
+        "support": {
+            "unprefixed": {
+                "all": "Safari, Chrome, Fx, IE, O",
+                "safari": [4,5],
+                "chrome": [23],
+                "fx": [4,5,6,7,8,9,10,11,12,13,14,15,16,17,18],
+                "opera": ["11.60", "11.61", "11.62", "11.64", 12, "12.01", "12.02", "12.10"]
+            }
+        }
+    },
+    {
+        "name": "border-after",
+        "support": {
+            "webkit": {
+                "all": "Chrome",
+                "chrome": [23]
+            }
+        }
+    },
+    {
+        "name": "border-after-color",
+        "support": {
+            "webkit": {
+                "all": "Chrome",
+                "chrome": [23]
+            }
+        }
+    },
+    {
+        "name": "border-after-style",
+        "support": {
+            "webkit": {
+                "all": "Chrome",
+                "chrome": [23]
+            }
+        }
+    },
+    {
+        "name": "border-after-width",
+        "support": {
+            "webkit": {
+                "all": "Chrome",
+                "chrome": [23]
+            }
+        }
+    },
+    {
+        "name": "border-before",
+        "support": {
+            "webkit": {
+                "all": "Chrome",
+                "chrome": [23]
+            }
+        }
+    },
+    {
+        "name": "border-before-color",
+        "support": {
+            "webkit": {
+                "all": "Chrome",
+                "chrome": [23]
+            }
+        }
+    },
+    {
+        "name": "border-before-style",
+        "support": {
+            "webkit": {
+                "all": "Chrome",
+                "chrome": [23]
+            }
+        }
+    },
+    {
+        "name": "border-before-width",
+        "support": {
+            "webkit": {
+                "all": "Chrome",
+                "chrome": [23]
+            }
+        }
+    },
+    {
+        "name": "border-bottom",
+        "spec": "http://www.w3.org/TR/CSS1/#border-bottom",
+        "support": {
+            "unprefixed": {
+                "all": "Safari, Chrome, Fx, IE, O",
+                "safari": [4,5],
+                "chrome": [23],
+                "fx": [4,5,6,7,8,9,10,11,12,13,14,15,16,17,18],
+                "ie": [8,9,10],
+                "opera": ["11.60", "11.61", "11.62", "11.64", 12, "12.01", "12.02", "12.10"]
+            }
+        }
+    },
+    {
+        "name": "border-bottom-color",
+        "spec": "http://www.w3.org/TR/CSS2/box.html#border-color-properties",
+        "support": {
+            "unprefixed": {
+                "all": "Safari, Chrome, Fx, IE, O",
+                "safari": [4,5],
+                "chrome": [23],
+                "fx": [4,5,6,7,8,9,10,11,12,13,14,15,16,17,18],
+                "ie": [8,9,10],
+                "opera": ["11.60", "11.61", "11.62", "11.64", 12, "12.01", "12.02", "12.10"]
+            }
+        }
+    },
+    {
+        "name": "border-bottom-colors",
+        "spec": "https://developer.mozilla.org/en-US/docs/CSS/-moz-border-bottom-colors",
+        "support": {
+            "moz": {
+                "all": "Fx",
+                "fx": [4,5,6,7,8,9,10,11,12,13,14,15,16,17,18]
+            }
+        }
+    },
+    {
+        "name": "border-bottom-left-radius",
+        "spec": "http://dev.w3.org/csswg/css3-background/#border-bottom-left-radius",
+        "support": {
+            "unprefixed": {
+                "all": "Safari 5+, Chrome, Fx, IE 9+, O",
+                "safari": [5],
+                "chrome": [23],
+                "fx": [4,5,6,7,8,9,10,11,12,13,14,15,16,17,18],
+                "ie": [9,10],
+                "opera": ["11.60", "11.61", "11.62", "11.64", 12, "12.01", "12.02", "12.10"]
+            }
+        }
+    },
+    {
+        "name": "border-bottom-right-radius",
+        "spec": "http://dev.w3.org/csswg/css3-background/#border-bottom-right-radius",
+        "support": {
+            "unprefixed": {
+                "all": "Safari 5+, Chrome, Fx, IE 9+, O",
+                "safari": [5],
+                "chrome": [23],
+                "fx": [4,5,6,7,8,9,10,11,12,13,14,15,16,17,18],
+                "ie": [9,10],
+                "opera": ["11.60", "11.61", "11.62", "11.64", 12, "12.01", "12.02", "12.10"]
+            }
+        }
+    },
+    {
+        "name": "border-bottom-style",
+        "spec": "http://www.w3.org/TR/CSS2/box.html#border-style-properties",
+        "support": {
+            "unprefixed": {
+                "all": "Safari, Chrome, Fx, IE, O",
+                "safari": [4,5],
+                "chrome": [23],
+                "fx": [4,5,6,7,8,9,10,11,12,13,14,15,16,17,18],
+                "ie": [8,9,10],
+                "opera": ["11.60", "11.61", "11.62", "11.64", 12, "12.01", "12.02", "12.10"]
+            }
+        }
+    },
+    {
+        "name": "border-bottom-width",
+        "spec": "http://www.w3.org/TR/CSS2/box.html#border-width-properties",
+        "support": {
+            "unprefixed": {
+                "all": "Safari, Chrome, Fx, IE, O",
+                "safari": [4,5],
+                "chrome": [23],
+                "fx": [4,5,6,7,8,9,10,11,12,13,14,15,16,17,18],
+                "ie": [8,9,10],
+                "opera": ["11.60", "11.61", "11.62", "11.64", 12, "12.01", "12.02", "12.10"]
+            }
+        }
+    },
+    {
+        "name": "border-collapse",
+        "spec": "http://www.w3.org/TR/CSS2/tables.html#borders",
+        "support": {
+            "unprefixed": {
+                "all": "Safari, Chrome, Fx, IE, O",
+                "safari": [4,5],
+                "chrome": [23],
+                "fx": [4,5,6,7,8,9,10,11,12,13,14,15,16,17,18],
+                "ie": [8,9,10],
+                "opera": ["11.60", "11.61", "11.62", "11.64", 12, "12.01", "12.02", "12.10"]
+            }
+        }
+    },
+    {
+        "name": "border-color",
+        "spec": "http://www.w3.org/TR/CSS1/#border-color",
+        "support": {
+            "unprefixed": {
+                "all": "Safari, Chrome, Fx, IE, O",
+                "safari": [4,5],
+                "chrome": [23],
+                "fx": [4,5,6,7,8,9,10,11,12,13,14,15,16,17,18],
+                "ie": [8,9,10],
+                "opera": ["11.60", "11.61", "11.62", "11.64", 12, "12.01", "12.02", "12.10"]
+            }
+        }
+    },
+    {
+        "name": "border-end",
+        "support": {
+            "webkit": {
+                "all": "Chrome",
+                "chrome": [23]
+            },
+            "moz": {
+                "all": "Fx",
+                "fx": [4,5,6,7,8,9,10,11,12,13,14,15,16,17,18]
+            }
+        }
+    },
+    {
+        "name": "border-end-color",
+        "support": {
+            "webkit": {
+                "all": "Chrome",
+                "chrome": [23]
+            },
+            "moz": {
+                "all": "Fx",
+                "fx": [4,5,6,7,8,9,10,11,12,13,14,15,16,17,18]
+            }
+        }
+    },
+    {
+        "name": "border-end-style",
+        "support": {
+            "webkit": {
+                "all": "Chrome",
+                "chrome": [23]
+            },
+            "moz": {
+                "all": "Fx",
+                "fx": [4,5,6,7,8,9,10,11,12,13,14,15,16,17,18]
+            }
+        }
+    },
+    {
+        "name": "border-end-width",
+        "support": {
+            "webkit": {
+                "all": "Chrome",
+                "chrome": [23]
+            },
+            "moz": {
+                "all": "Fx",
+                "fx": [4,5,6,7,8,9,10,11,12,13,14,15,16,17,18]
+            }
+        }
+    },
+    {
+        "name": "border-fit",
+        "support": {
+            "webkit": {
+                "all": "Chrome",
+                "chrome": [23]
+            }
+        }
+    },
+    {
+        "name": "border-horizontal-spacing",
+        "support": {
+            "webkit": {
+                "all": "Safari, Chrome",
+                "safari": [4,5],
+                "chrome": [23]
+            }
+        }
+    },
+    {
+        "name": "border-image",
+        "spec": "http://dev.w3.org/csswg/css3-background/#border-image",
+        "support": {
+            "webkit": {
+                "all": "Safari, Chrome, Fx 15+",
+                "safari": [4,5],
+                "chrome": [23],
+                "fx": [15,16,17,18]
+            },
+            "moz": {
+                "all": "Fx",
+                "fx": [4,5,6,7,8,9,10,11,12,13,14,15,16,17,18]
+            },
+            "o": {
+                "all": "O",
+                "opera": ["11.60", "11.61", "11.62", "11.64", 12, "12.01", "12.02", "12.10"]
+            }
+        }
+    },
+    {
+        "name": "border-image-outset",
+        "spec": "http://dev.w3.org/csswg/css3-background/#border-image-outset",
+        "support": {
+            "unprefixed": {
+                "all": "Chrome, Fx 15+",
+                "chrome": [23],
+                "fx": [15,16,17,18]
+            }
+        }
+    },
+    {
+        "name": "border-image-repeat",
+        "spec": "http://dev.w3.org/csswg/css3-background/#border-image-repeat",
+        "support": {
+            "unprefixed": {
+                "all": "Chrome, Fx 15+",
+                "chrome": [23],
+                "fx": [15,16,17,18]
+            }
+        }
     }
-}
+    {
+        "name": "border-image-slice",
+        "spec": "http://dev.w3.org/csswg/css3-background/#border-image-slice",
+        "support": {
+            "unprefixed": {
+                "all": "Chrome, Fx 15+",
+                "chrome": [23],
+                "fx": [15,16,17,18]
+            }
+        }
+    }
+    {
+        "name": "border-image-source",
+        "spec": "http://dev.w3.org/csswg/css3-background/#border-image-source",
+        "support": {
+            "unprefixed": {
+                "all": "Chrome, Fx 15+",
+                "chrome": [23],
+                "fx": [15,16,17,18]
+            }
+        }
+    }
+    {
+        "name": "border-image-width",
+        "spec": "http://dev.w3.org/csswg/css3-background/#border-image-width",
+        "support": {
+            "unprefixed": {
+                "all": "Chrome, Fx 13+",
+                "chrome": [23],
+                "fx": [13,14,15,16,17,18]
+            }
+        }
+    }
+    {
+        "name": "border-left",
+        "spec": "http://www.w3.org/TR/CSS1/#border-left",
+        "support": {
+            "unprefixed": {
+                "all": "Safari, Chrome, Fx, IE, O",
+                "safari": [4,5],
+                "chrome": [23],
+                "fx": [4,5,6,7,8,9,10,11,12,13,14,15,16,17,18],
+                "ie": [8,9,10],
+                "opera": ["11.60", "11.61", "11.62", "11.64", 12, "12.01", "12.02", "12.10"]
+            }
+        }
+    }
+    {
+        "name": "border-left-color",
+        "spec": "http://www.w3.org/TR/CSS2/box.html#propdef-border-left-color",
+        "support": {
+            "unprefixed": {
+                "all": "Safari, Chrome, Fx, IE, O",
+                "safari": [4,5],
+                "chrome": [23],
+                "fx": [4,5,6,7,8,9,10,11,12,13,14,15,16,17,18],
+                "ie": [8,9,10],
+                "opera": ["11.60", "11.61", "11.62", "11.64", 12, "12.01", "12.02", "12.10"]
+            }
+        }
+    },
+    {
+        "name": "border-left-colors",
+        "spec": "https://developer.mozilla.org/en-US/docs/CSS/-moz-border-left-colors",
+        "support": {
+            "moz": {
+                "all": "Fx",
+                "fx": [4,5,6,7,8,9,10,11,12,13,14,15,16,17,18]
+            }
+        }
+    },
+    {
+        "name": "border-left-style",
+        "spec": "http://www.w3.org/TR/CSS2/box.html#border-style-properties",
+        "support": {
+            "unprefixed": {
+                "all": "Safari, Chrome, Fx, IE, O",
+                "safari": [4,5],
+                "chrome": [23],
+                "fx": [4,5,6,7,8,9,10,11,12,13,14,15,16,17,18],
+                "ie": [8,9,10],
+                "opera": ["11.60", "11.61", "11.62", "11.64", 12, "12.01", "12.02", "12.10"]
+            }
+        }
+    },
+    {
+        "name": "border-left-width",
+        "spec": "http://www.w3.org/TR/CSS1/#border-left-width",
+        "support": {
+            "unprefixed": {
+                "all": "Safari, Chrome, Fx, IE, O",
+                "safari": [4,5],
+                "chrome": [23],
+                "fx": [4,5,6,7,8,9,10,11,12,13,14,15,16,17,18],
+                "ie": [8,9,10],
+                "opera": ["11.60", "11.61", "11.62", "11.64", 12, "12.01", "12.02", "12.10"]
+            }
+        }
+    },
+    {
+        "name": "border-radius",
+        "spec": "http://dev.w3.org/csswg/css3-background/#border-radius",
+        "support": {
+            "webkit": {
+                "all": "Safari, O 12.10+",
+                "safari": [4,5],
+                "opera": ["12.10"]
+            },
+            "unprefixed": {
+                "all": "Safari 5+, Chrome, Fx, IE 9+, O",
+                "safari": [5],
+                "chrome": [23],
+                "fx": [4,5,6,7,8,9,10,11,12,13,14,15,16,17,18],
+                "ie": [9,10],
+                "opera": ["11.60", "11.61", "11.62", "11.64", 12, "12.01", "12.02", "12.10"]
+            }
+        }
+    },
+    {
+        "name": "border-radius-bottomleft",
+        "spec": "http://dev.w3.org/csswg/css3-background/#border-bottom-left-radius",
+        "support": {
+            "moz": {
+                "all": "Fx 12-",
+                "fx": [4,5,6,7,8,9,10,11,12]
+            }
+        }
+    },
+    {
+        "name": "border-radius-bottomright",
+        "spec": "http://dev.w3.org/csswg/css3-background/#border-bottom-right-radius",
+        "support": {
+            "moz": {
+                "all": "Fx 12-",
+                "fx": [4,5,6,7,8,9,10,11,12]
+            }
+        }
+    },
+    {
+        "name": "border-radius-topleft",
+        "spec": "http://dev.w3.org/csswg/css3-background/#the-border-radius",
+        "support": {
+            "moz": {
+                "all": "Fx 12-",
+                "fx": [4,5,6,7,8,9,10,11,12]
+            }
+        }
+    },
+    {
+        "name": "border-radius-topright",
+        "spec": "http://dev.w3.org/csswg/css3-background/#the-border-radius",
+        "support": {
+            "moz": {
+                "all": "Fx 12-",
+                "fx": [4,5,6,7,8,9,10,11,12]
+            }
+        }
+    },
+    {
+        "name": "border-right",
+        "spec": "http://www.w3.org/TR/CSS1/#border-right",
+        "support": {
+            "unprefixed": {
+                "all": "Safari, Chrome, Fx, IE, O",
+                "safari": [4,5],
+                "chrome": [23],
+                "fx": [4,5,6,7,8,9,10,11,12,13,14,15,16,17,18],
+                "ie": [8,9,10],
+                "opera": ["11.60", "11.61", "11.62", "11.64", 12, "12.01", "12.02", "12.10"]
+            }
+        }
+    },
+    {
+        "name": "border-right-color",
+        "spec": "http://www.w3.org/TR/CSS2/box.html#border-color-properties",
+        "support": {
+            "unprefixed": {
+                "all": "Safari, Chrome, Fx, IE, O",
+                "safari": [4,5],
+                "chrome": [23],
+                "fx": [4,5,6,7,8,9,10,11,12,13,14,15,16,17,18],
+                "ie": [8,9,10],
+                "opera": ["11.60", "11.61", "11.62", "11.64", 12, "12.01", "12.02", "12.10"]
+            }
+        }
+    },
+    {
+        "name": "border-right-colors",
+        "spec": "https://developer.mozilla.org/en-US/docs/CSS/-moz-border-right-colors",
+        "support": {
+            "moz": {
+                "all": "Fx",
+                "fx": [4,5,6,7,8,9,10,11,12,13,14,15,16,17,18]
+            }
+        }
+    },
+    {
+        "name": "border-right-style",
+        "spec": "http://www.w3.org/TR/CSS2/box.html#border-style-properties",
+        "support": {
+            "unprefixed": {
+                "all": "Safari, Chrome, Fx, IE, O",
+                "safari": [4,5],
+                "chrome": [23],
+                "fx": [4,5,6,7,8,9,10,11,12,13,14,15,16,17,18],
+                "ie": [8,9,10],
+                "opera": ["11.60", "11.61", "11.62", "11.64", 12, "12.01", "12.02", "12.10"]
+            }
+        }
+    },
+    {
+        "name": "border-right-width",
+        "spec": "http://dev.w3.org/csswg/css3-background/#the-border-width",
+        "support": {
+            "unprefixed": {
+                "all": "Safari, Chrome, Fx, IE, O",
+                "safari": [4,5],
+                "chrome": [23],
+                "fx": [4,5,6,7,8,9,10,11,12,13,14,15,16,17,18],
+                "ie": [8,9,10],
+                "opera": ["11.60", "11.61", "11.62", "11.64", 12, "12.01", "12.02", "12.10"]
+            }
+        }
+    },
+    {
+        "name": "border-spacing",
+        "spec": "http://www.w3.org/TR/CSS2/tables.html#separated-borders",
+        "support": {
+            "unprefixed": {
+                "all": "Safari, Chrome, Fx, IE, O",
+                "safari": [4,5],
+                "chrome": [23],
+                "fx": [4,5,6,7,8,9,10,11,12,13,14,15,16,17,18],
+                "ie": [8,9,10],
+                "opera": ["11.60", "11.61", "11.62", "11.64", 12, "12.01", "12.02", "12.10"]
+            }
+        }
+    },
+    {
+        "name": "border-start",
+        "support": {
+            "webkit": {
+                "all": "Chrome",
+                "chrome": [23]
+            },
+            "moz": {
+                "all": "Fx",
+                "fx": [4,5,6,7,8,9,10,11,12,13,14,15,16,17,18]
+            }
+        }
+    },
+    {
+        "name": "border-start-color",
+        "support": {
+            "webkit": {
+                "all": "Chrome",
+                "chrome": [23]
+            },
+            "moz": {
+                "all": "Fx",
+                "fx": [4,5,6,7,8,9,10,11,12,13,14,15,16,17,18]
+            }
+        }
+    },
+    {
+        "name": "border-start-style",
+        "support": {
+            "webkit": {
+                "all": "Chrome",
+                "chrome": [23]
+            },
+            "moz": {
+                "all": "Fx",
+                "fx": [4,5,6,7,8,9,10,11,12,13,14,15,16,17,18]
+            }
+        }
+    },
+    {
+        "name": "border-start-width",
+        "support": {
+            "webkit": {
+                "all": "Chrome",
+                "chrome": [23]
+            },
+            "moz": {
+                "all": "Fx",
+                "fx": [4,5,6,7,8,9,10,11,12,13,14,15,16,17,18]
+            }
+        }
+    },
+    {
+        "name": "border-top",
+        "spec": "http://dev.w3.org/csswg/css3-background/#border-top",
+        "support": {
+            "unprefixed": {
+                "all": "Safari, Chrome, Fx, IE, O",
+                "safari": [4,5],
+                "chrome": [23],
+                "fx": [4,5,6,7,8,9,10,11,12,13,14,15,16,17,18],
+                "ie": [8,9,10],
+                "opera": ["11.60", "11.61", "11.62", "11.64", 12, "12.01", "12.02", "12.10"]
+            }
+        }
+    },
+    {
+        "name": "border-top-color",
+        "spec": "http://dev.w3.org/csswg/css3-background/#border-top-color",
+        "support": {
+            "unprefixed": {
+                "all": "Safari, Chrome, Fx, IE, O",
+                "safari": [4,5],
+                "chrome": [23],
+                "fx": [4,5,6,7,8,9,10,11,12,13,14,15,16,17,18],
+                "ie": [8,9,10],
+                "opera": ["11.60", "11.61", "11.62", "11.64", 12, "12.01", "12.02", "12.10"]
+            }
+        }
+    },
+    {
+        "name": "border-top-colors",
+        "spec": "https://developer.mozilla.org/en-US/docs/CSS/-moz-border-top-colors",
+        "support": {
+            "moz": {
+                "all": "Fx",
+                "fx": [4,5,6,7,8,9,10,11,12,13,14,15,16,17,18]
+            }
+        }
+    },
+    {
+        "name": "border-top-left-radius",
+        "spec": "http://dev.w3.org/csswg/css3-background/#the-border-radius",
+        "support": {
+            "webkit": {
+                "all": "Safari, Chrome, O",
+                "safari": [4,5],
+                "chrome": [23],
+                "opera": ["11.60", "11.61", "11.62", "11.64", 12, "12.01", "12.02", "12.10"]
+            },
+            "unprefixed": {
+                "all": "Safari 5+, Chrome, Fx, IE 9+, O",
+                "safari": [5],
+                "chrome": [23],
+                "fx": [4,5,6,7,8,9,10,11,12,13,14,15,16,17,18],
+                "ie": [9,10],
+                "opera": ["11.60", "11.61", "11.62", "11.64", 12, "12.01", "12.02", "12.10"]
+            }
+        }
+    },
+    {
+        "name": "border-top-right-radius",
+        "spec": "http://dev.w3.org/csswg/css3-background/#the-border-radius",
+        "support": {
+            "webkit": {
+                "all": "Safari, Chrome, O",
+                "safari": [4,5],
+                "chrome": [23],
+                "opera": ["11.60", "11.61", "11.62", "11.64", 12, "12.01", "12.02", "12.10"]
+            },
+            "unprefixed": {
+                "all": "Safari 5+, Chrome, Fx, IE 9+, O",
+                "safari": [5],
+                "chrome": [23],
+                "fx": [4,5,6,7,8,9,10,11,12,13,14,15,16,17,18],
+                "ie": [9,10],
+                "opera": ["11.60", "11.61", "11.62", "11.64", 12, "12.01", "12.02", "12.10"]
+            }
+        }
+    },
+    {
+        "name": "border-top-style",
+        "spec": "http://dev.w3.org/csswg/css3-background/#the-border-style",
+        "support": {
+            "unprefixed": {
+                "all": "Safari, Chrome, Fx, IE, O",
+                "safari": [4,5],
+                "chrome": [23],
+                "fx": [4,5,6,7,8,9,10,11,12,13,14,15,16,17,18],
+                "ie": [8,9,10],
+                "opera": ["11.60", "11.61", "11.62", "11.64", 12, "12.01", "12.02", "12.10"]
+            }
+        }
+    },
+    {
+        "name": "border-top-width",
+        "spec": "http://dev.w3.org/csswg/css3-background/#the-border-width",
+        "support": {
+            "unprefixed": {
+                "all": "Safari, Chrome, Fx, IE, O",
+                "safari": [4,5],
+                "chrome": [23],
+                "fx": [4,5,6,7,8,9,10,11,12,13,14,15,16,17,18],
+                "ie": [8,9,10],
+                "opera": ["11.60", "11.61", "11.62", "11.64", 12, "12.01", "12.02", "12.10"]
+            }
+        }
+    },
+    {
+        "name": "border-vertical-spacing",
+        "support": {
+            "webkit": {
+                "all": "Safari, Chrome",
+                "safari": [4,5],
+                "chrome": [23]
+            }
+        }
+    },
+    {
+        "name": "border-width",
+        "spec": "http://dev.w3.org/csswg/css3-background/#the-border-width",
+        "support": {
+            "unprefixed": {
+                "all": "Safari, Chrome, Fx, IE, O",
+                "safari": [4,5],
+                "chrome": [23],
+                "fx": [4,5,6,7,8,9,10,11,12,13,14,15,16,17,18],
+                "ie": [8,9,10],
+                "opera": ["11.60", "11.61", "11.62", "11.64", 12, "12.01", "12.02", "12.10"]
+            }
+        }
+    },
+    {
+        "name": "bottom",
+        "spec": "http://www.w3.org/TR/CSS2/visuren.html#propdef-bottom",
+        "support": {
+            "unprefixed": {
+                "all": "Safari, Chrome, Fx, IE, O",
+                "safari": [4,5],
+                "chrome": [23],
+                "fx": [4,5,6,7,8,9,10,11,12,13,14,15,16,17,18],
+                "ie": [8,9,10],
+                "opera": ["11.60", "11.61", "11.62", "11.64", 12, "12.01", "12.02", "12.10"]
+            }
+        }
+    },
+    {
+        "name": "box-align",
+        "spec": "https://developer.mozilla.org/en-US/docs/CSS/box-align",
+        "support": {
+            "webkit": {
+                "all": "Safari, Chrome",
+                "safari": [4,5],
+                "chrome": [23]
+            },
+            "moz": {
+                "all": "Fx",
+                "fx": [4,5,6,7,8,9,10,11,12,13,14,15,16,17,18]
+            }
+        }
+    },
+    {
+        "name": "box-decoration-break",
+        "spec": "http://www.w3.org/TR/css3-background/#the-box-decoration-break",
+        "support": {
+            "webkit": {
+                "all": "Chrome",
+                "chrome": [23]
+            },
+            "unprefixed": {
+                "all": "O",
+                "opera": ["11.60", "11.61", "11.62", "11.64", 12, "12.01", "12.02", "12.10"]
+            }
+        }
+    },
+    {
+        "name": "box-direction",
+        "spec": "https://developer.mozilla.org/en-US/docs/CSS/box-direction",
+        "support": {
+            "webkit": {
+                "all": "Safari, Chrome",
+                "safari": [4,5],
+                "chrome": [23]
+            },
+            "moz": {
+                "all": "Fx",
+                "fx": [4,5,6,7,8,9,10,11,12,13,14,15,16,17,18]
+            }
+        }
+    },
+    {
+        "name": "box-flex",
+        "spec": "https://developer.mozilla.org/en-US/docs/CSS/-moz-box-flex",
+        "support": {
+            "webkit": {
+                "all": "Safari, Chrome",
+                "safari": [4,5],
+                "chrome": [23]
+            },
+            "moz": {
+                "all": "Fx",
+                "fx": [4,5,6,7,8,9,10,11,12,13,14,15,16,17,18]
+            }
+        }
+    },
+    {
+        "name": "box-fles-group",
+        "support": {
+            "webkit": {
+                "all": "Safari, Chrome",
+                "safari": [4,5],
+                "chrome": [23]
+            }
+        }
+    },
+    {
+        "name": "box-float-edge",
+        "spec": "https://developer.mozilla.org/en-US/docs/CSS/-moz-float-edge",
+        "support": {
+            "moz": {
+                "all": "Fx",
+                "fx": [4,5,6,7,8,9,10,11,12,13,14,15,16,17,18],
+            }
+        }
+    },
+    {
+        "name": "box-force-broken-image-icon",
+        "spec": "https://developer.mozilla.org/en-US/docs/CSS/-moz-force-broken-image-icon",
+        "support": {
+            "moz": {
+                "all": "Fx",
+                "fx": [4,5,6,7,8,9,10,11,12,13,14,15,16,17,18],
+            }
+        }
+    },
+    {
+        "name": "box-lines",
+        "support": {
+            "webkit": {
+                "all": "Safari, Chrome",
+                "safari": [4,5],
+                "chrome": [23]
+            }
+        }
+    },
+    {
+        "name": "box-ordinal-group",
+        "spec": "https://developer.mozilla.org/en-US/docs/CSS/-moz-box-ordinal-group",
+        "support": {
+            "webkit": {
+                "all": "Safari, Chrome",
+                "safari": [4,5],
+                "chrome": [23]
+            },
+            "moz": {
+                "all": "Fx",
+                "fx": [4,5,6,7,8,9,10,11,12,13,14,15,16,17,18]
+            }
+        }
+    },
+    {
+        "name": "box-orient",
+        "spec": "https://developer.mozilla.org/en-US/docs/CSS/-moz-box-orient",
+        "support": {
+            "webkit": {
+                "all": "Safari, Chrome",
+                "safari": [4,5],
+                "chrome": [23]
+            },
+            "moz": {
+                "all": "Fx",
+                "fx": [4,5,6,7,8,9,10,11,12,13,14,15,16,17,18]
+            }
+        }
+    },
+    {
+        "name": "box-pack",
+        "spec": "https://developer.mozilla.org/en-US/docs/CSS/-moz-box-pack",
+        "support": {
+            "webkit": {
+                "all": "Safari, Chrome",
+                "safari": [4,5],
+                "chrome": [23]
+            },
+            "moz": {
+                "all": "Fx",
+                "fx": [4,5,6,7,8,9,10,11,12,13,14,15,16,17,18]
+            }
+        }
+    },
+    {
+        "name": "box-reflect",
+        "spec": "http://developer.apple.com/library/safari/documentation/appleapplications/reference/safaricssref/Articles/StandardCSSProperties.html#//apple_ref/doc/uid/TP30001266-SW16",
+        "support": {
+            "webkit": {
+                "all": "Safari, Chrome",
+                "safari": [4,5],
+                "chrome": [23]
+            }
+        }
+    },
+    {
+        "name": "box-shadow",
+        "spec": "http://dev.w3.org/csswg/css3-background/#box-shadow",
+        "support": {
+            "webkit": {
+                "all": "Safari, O",
+                "safari": [4,5],
+                "opera": ["11.60", "11.61", "11.62", "11.64", 12, "12.01", "12.02", "12.10"]
+            },
+            "unprefixed": {
+                "all": "Safari 5.1+, Chrome, Fx, IE 9+, O",
+                "safari": ["5.1"],
+                "chrome": [23],
+                "fx": [4,5,6,7,8,9,10,11,12,13,14,15,16,17,18],
+                "ie": [9,10],
+                "opera": ["11.60", "11.61", "11.62", "11.64", 12, "12.01", "12.02", "12.10"]
+            }
+        }
+    },
+    {
+        "name": "box-sizing",
+        "spec": "http://dev.w3.org/csswg/css3-ui/#box-sizing",
+        "support": {
+            "webkit": {
+                "all": "Safari",
+                "safari": [4,5]
+            },
+            "moz": {
+                "all": "Fx",
+                "fx": [4,5,6,7,8,9,10,11,12,13,14,15,16,17,18]
+            },
+            "unprefixed": {
+                "all": "Safari 5.1+, Chrome, IE, O",
+                "safari": ["5.1"],
+                "chrome": [23],
+                "ie": [8,9,10],
+                "opera": ["11.60", "11.61", "11.62", "11.64", 12, "12.01", "12.02", "12.10"]
+            }
+        }
+    },
+    {
+        "name": "break-after",
+        "spec": "http://dev.w3.org/csswg/css3-break/#break-after",
+        "support": {
+            "unprefixed": {
+                "all": "IE 10, O",
+                "ie": [10],
+                "opera": ["11.60", "11.61", "11.62", "11.64", 12, "12.01", "12.02", "12.10"]
+            }
+        }
+    },
+    {
+        "name": "break-before",
+        "spec": "http://dev.w3.org/csswg/css3-break/#break-before",
+        "support": {
+            "unprefixed": {
+                "all": "IE 10, O",
+                "ie": [10],
+                "opera": ["11.60", "11.61", "11.62", "11.64", 12, "12.01", "12.02", "12.10"]
+            }
+        }
+    },
+    {
+        "name": "break-inside",
+        "spec": "http://dev.w3.org/csswg/css3-break/#break-inside",
+        "support": {
+            "unprefixed": {
+                "all": "IE 10, O",
+                "ie": [10],
+                "opera": ["11.60", "11.61", "11.62", "11.64", 12, "12.01", "12.02", "12.10"]
+            }
+        }
+    },
+    {
+        "name": "caption-side",
+        "spec": "http://www.w3.org/TR/CSS2/tables.html#caption-position",
+        "support": {
+            "unprefixed": {
+                "all": "Safari, Chrome, Fx, IE, O",
+                "safari": [4,5],
+                "chrome": [23],
+                "fx": [4,5,6,7,8,9,10,11,12,13,14,15,16,17,18],
+                "ie": [8,9,10],
+                "opera": ["11.60", "11.61", "11.62", "11.64", 12, "12.01", "12.02", "12.10"]
+            }
+        }
+    },
+    {
+        "name": "clear",
+        "spec": "http://www.w3.org/TR/CSS1/#clear",
+        "support": {
+            "unprefixed": {
+                "all": "Safari, Chrome, Fx, IE, O",
+                "safari": [4,5],
+                "chrome": [23],
+                "fx": [4,5,6,7,8,9,10,11,12,13,14,15,16,17,18],
+                "ie": [8,9,10],
+                "opera": ["11.60", "11.61", "11.62", "11.64", 12, "12.01", "12.02", "12.10"]
+            }
+        }
+    },
+    {
+        "name": "clip",
+        "spec": "http://www.w3.org/TR/CSS2/visufx.html#clipping",
+        "support": {
+            "unprefixed": {
+                "all": "Safari, Chrome, Fx, IE, O",
+                "safari": [4,5],
+                "chrome": [23],
+                "fx": [4,5,6,7,8,9,10,11,12,13,14,15,16,17,18],
+                "ie": [8,9,10],
+                "opera": ["11.60", "11.61", "11.62", "11.64", 12, "12.01", "12.02", "12.10"]
+            }
+        }
+    },
+    {
+        "name": "clip-path",
+        "spec": "http://www.w3.org/TR/SVG11/masking.html#ClipPathProperty",
+        "support": {
+            "unprefixed": {
+                "all": "Fx",
+                "fx": [4,5,6,7,8,9,10,11,12,13,14,15,16,17,18]
+            }
+        }
+    },
+    {
+        "name": "color",
+        "spec": "http://www.w3.org/TR/CSS1/#color",
+        "support": {
+            "unprefixed": {
+                "all": "Safari, Chrome, Fx, IE, O",
+                "safari": [4,5],
+                "chrome": [23],
+                "fx": [4,5,6,7,8,9,10,11,12,13,14,15,16,17,18],
+                "ie": [8,9,10],
+                "opera": ["11.60", "11.61", "11.62", "11.64", 12, "12.01", "12.02", "12.10"]
+            }
+        }
+    },
+    {
+        "name": "color-correction",
+        "support": {
+            "webkit": {
+                "all": "Chrome",
+                "chrome": [23]
+            }
+        }
+    },
+    {
+        "name": "column-axis",
+        "support": {
+            "webkit": {
+                "all": "Chrome",
+                "chrome": [23]
+            }
+        }
+    },
+    {
+        "name": "column-break-after",
+        "spec": "http://dev.w3.org/csswg/css3-multicol/#break-after",
+        "support": {
+            "webkit": {
+                "all": "Safari, Chrome",
+                "safari": [4,5],
+                "chrome": [23]
+            }
+        }
+    },
+    {
+        "name": "column-break-before",
+        "spec": "http://dev.w3.org/csswg/css3-multicol/#break-before",
+        "support": {
+            "webkit": {
+                "all": "Safari, Chrome",
+                "safari": [4,5],
+                "chrome": [23]
+            }
+        }
+    },
+    {
+        "name": "column-break-inside",
+        "spec": "http://dev.w3.org/csswg/css3-multicol/#break-inside",
+        "support": {
+            "webkit": {
+                "all": "Safari, Chrome",
+                "safari": [4,5],
+                "chrome": [23]
+            }
+        }
+    },
+    {
+        "name": "column-count",
+        "spec": "http://dev.w3.org/csswg/css3-multicol/#column-count",
+        "support": {
+            "webkit": {
+                "all": "Safari, Chrome",
+                "safari": [4,5],
+                "chrome": [23]
+            },
+            "moz": {
+                "all": "Fx",
+                "fx": [4,5,6,7,8,9,10,11,12,13,14,15,16,17,18]
+            },
+            "unprefixed": {
+                "all": "IE 10, O",
+                "ie": [10],
+                "opera": ["11.60", "11.61", "11.62", "11.64", 12, "12.01", "12.02", "12.10"]
+            }
+        }
+    },
+    {
+        "name": "column-fill",
+        "spec": "http://dev.w3.org/csswg/css3-multicol/#column-fill",
+        "support": {
+            "moz": {
+                "all": "Fx 13+",
+                "fx": [13,1,15,16,17,18]
+            },
+            "unprefixed": {
+                "all": "IE 10, O",
+                "ie": [10],
+                "opera": ["11.60", "11.61", "11.62", "11.64", 12, "12.01", "12.02", "12.10"]
+            }
+        }
+    },
+    {
+        "name": "column-gap",
+        "spec": "http://dev.w3.org/csswg/css3-multicol/#column-gap",
+        "support": {
+            "webkit": {
+                "all": "Safari, Chrome",
+                "safari": [4,5],
+                "chrome": [23]
+            },
+            "moz": {
+                "all": "Fx",
+                "fx": [4,5,6,7,8,9,10,11,12,13,14,15,16,17,18]
+            },
+            "unprefixed": {
+                "all": "IE 10, O",
+                "ie": [10],
+                "opera": ["11.60", "11.61", "11.62", "11.64", 12, "12.01", "12.02", "12.10"]
+            }
+        }
+    },
+    {
+        "name": "column-progression",
+        "support": {
+            "webkit": {
+                "all": "Chrome",
+                "chrome": [23]
+            }
+        }
+    },
+    {
+        "name": "column-rule",
+        "spec": "http://dev.w3.org/csswg/css3-multicol/#column-rule",
+        "support": {
+            "webkit": {
+                "all": "Safari, Chrome",
+                "safari": [4,5],
+                "chrome": [23]
+            },
+            "moz": {
+                "all": "Fx",
+                "fx": [4,5,6,7,8,9,10,11,12,13,14,15,16,17,18]
+            },
+            "unprefixed": {
+                "all": "IE 10, O",
+                "ie": [10],
+                "opera": ["11.60", "11.61", "11.62", "11.64", 12, "12.01", "12.02", "12.10"]
+            }
+        }
+    },
+    {
+        "name": "column-rule-color",
+        "spec": "http://dev.w3.org/csswg/css3-multicol/#crc",
+        "support": {
+            "webkit": {
+                "all": "Safari, Chrome",
+                "safari": [4,5],
+                "chrome": [23]
+            },
+            "moz": {
+                "all": "Fx",
+                "fx": [4,5,6,7,8,9,10,11,12,13,14,15,16,17,18]
+            },
+            "unprefixed": {
+                "all": "IE 10, O",
+                "ie": [10],
+                "opera": ["11.60", "11.61", "11.62", "11.64", 12, "12.01", "12.02", "12.10"]
+            }
+        }
+    },
+    {
+        "name": "column-rule-style",
+        "spec": "http://dev.w3.org/csswg/css3-multicol/#crs",
+        "support": {
+            "webkit": {
+                "all": "Safari, Chrome",
+                "safari": [4,5],
+                "chrome": [23]
+            },
+            "moz": {
+                "all": "Fx",
+                "fx": [4,5,6,7,8,9,10,11,12,13,14,15,16,17,18]
+            },
+            "unprefixed": {
+                "all": "IE 10, O",
+                "ie": [10],
+                "opera": ["11.60", "11.61", "11.62", "11.64", 12, "12.01", "12.02", "12.10"]
+            }
+        }
+    },
+    {
+        "name": "column-rule-width",
+        "spec": "http://dev.w3.org/csswg/css3-multicol/#crw",
+        "support": {
+            "webkit": {
+                "all": "Safari, Chrome",
+                "safari": [4,5],
+                "chrome": [23]
+            },
+            "moz": {
+                "all": "Fx",
+                "fx": [4,5,6,7,8,9,10,11,12,13,14,15,16,17,18]
+            },
+            "unprefixed": {
+                "all": "IE 10, O",
+                "ie": [10],
+                "opera": ["11.60", "11.61", "11.62", "11.64", 12, "12.01", "12.02", "12.10"]
+            }
+        }
+    },
+    {
+        "name": "column-span",
+        "spec": "http://dev.w3.org/csswg/css3-multicol/#column-span0",
+        "support": {
+            "webkit": {
+                "all": "Safari, Chrome",
+                "safari": [4,5],
+                "chrome": [23]
+            },
+            "unprefixed": {
+                "all": "IE 10, O",
+                "ie": [10],
+                "opera": ["11.60", "11.61", "11.62", "11.64", 12, "12.01", "12.02", "12.10"]
+            }
+        }
+    },
+    {
+        "name": "column-width",
+        "spec": "http://dev.w3.org/csswg/css3-multicol/#cw",
+        "support": {
+            "webkit": {
+                "all": "Safari, Chrome",
+                "safari": [4,5],
+                "chrome": [23]
+            },
+            "moz": {
+                "all": "Fx",
+                "fx": [4,5,6,7,8,9,10,11,12,13,14,15,16,17,18]
+            },
+            "unprefixed": {
+                "all": "IE 10, O",
+                "ie": [10],
+                "opera": ["11.60", "11.61", "11.62", "11.64", 12, "12.01", "12.02", "12.10"]
+            }
+        }
+    },
+    {
+        "name": "columns",
+        "spec": "http://dev.w3.org/csswg/css3-multicol/#columns",
+        "support": {
+            "webkit": {
+                "all": "Safari, Chrome",
+                "safari": [4,5],
+                "chrome": [23]
+            },
+            "moz": {
+                "all": "Fx 9+",
+                "fx": [9,10,11,12,13,14,15,16,17,18]
+            },
+            "unprefixed": {
+                "all": "IE 10, O",
+                "ie": [10],
+                "opera": ["11.60", "11.61", "11.62", "11.64", 12, "12.01", "12.02", "12.10"]
+            }
+        }
+    },
+    {
+        "name": "content",
+        "spec": "http://www.w3.org/TR/CSS2/generate.html#content",
+        "support": {
+            "unprefixed": {
+                "all": "Safari, Chrome, Fx, IE, O",
+                "safari": [4,5],
+                "chrome": [23],
+                "fx": [4,5,6,7,8,9,10,11,12,13,14,15,16,17,18],
+                "ie": [8,9,10],
+                "opera": ["11.60", "11.61", "11.62", "11.64", 12, "12.01", "12.02", "12.10"]
+            }
+        }
+    },
+    {
+        "name": "content-zoom-chaining",
+        "spec": "http://msdn.microsoft.com/en-us/library/ie/hh771889(v=vs.85).aspx",
+        "support": {
+            "ms": {
+                "all": "IE 10",
+                "ie": [10]
+            }
+        }
+    },
+    {
+        "name": "content-zoom-limit",
+        "spec": "http://msdn.microsoft.com/en-us/library/ie/jj127330(v=vs.85).aspx",
+        "support": {
+            "ms": {
+                "all": "IE 10",
+                "ie": [10]
+            }
+        }
+    },
+    {
+        "name": "content-zoom-limit-max",
+        "spec": "http://msdn.microsoft.com/en-us/library/ie/jj127331(v=vs.85).aspx",
+        "support": {
+            "ms": {
+                "all": "IE 10",
+                "ie": [10]
+            }
+        }
+    },
+    {
+        "name": "content-zoom-limit-min",
+        "spec": "http://msdn.microsoft.com/en-us/library/ie/jj127332(v=vs.85).aspx",
+        "support": {
+            "ms": {
+                "all": "IE 10",
+                "ie": [10]
+            }
+        }
+    },
+    {
+        "name": "content-zoom-snap",
+        "spec": "http://msdn.microsoft.com/en-us/library/ie/hh771893(v=vs.85).aspx",
+        "support": {
+            "ms": {
+                "all": "IE 10",
+                "ie": [10]
+            }
+        }
+    },
+    {
+        "name": "content-zoom-snap-points",
+        "spec": "http://msdn.microsoft.com/en-us/library/ie/hh771895(v=vs.85).aspx",
+        "support": {
+            "ms": {
+                "all": "IE 10",
+                "ie": [10]
+            }
+        }
+    },
+    {
+        "name": "content-zoom-snap-type",
+        "spec": "http://msdn.microsoft.com/en-us/library/ie/hh771896(v=vs.85).aspx",
+        "support": {
+            "ms": {
+                "all": "IE 10",
+                "ie": [10]
+            }
+        }
+    },
+    {
+        "name": "content-zooming",
+        "spec": "http://msdn.microsoft.com/en-us/library/ie/hh771891(v=vs.85).aspx",
+        "support": {
+            "ms": {
+                "all": "IE 10",
+                "ie": [10]
+            }
+        }
+    },
+    {
+        "name": "counter-increment",
+        "spec": "http://www.w3.org/TR/CSS2/generate.html#propdef-counter-increment",
+        "support": {
+            "unprefixed": {
+                "all": "Safari, Chrome, Fx, IE, O",
+                "safari": [4,5],
+                "chrome": [23],
+                "fx": [4,5,6,7,8,9,10,11,12,13,14,15,16,17,18],
+                "ie": [8,9,10],
+                "opera": ["11.60", "11.61", "11.62", "11.64", 12, "12.01", "12.02", "12.10"]
+            }
+        }
+    },
+    {
+        "name": "counter-reset",
+        "spec": "http://www.w3.org/TR/CSS2/generate.html#propdef-counter-reset",
+        "support": {
+            "unprefixed": {
+                "all": "Safari, Chrome, Fx, IE, O",
+                "safari": [4,5],
+                "chrome": [23],
+                "fx": [4,5,6,7,8,9,10,11,12,13,14,15,16,17,18],
+                "ie": [8,9,10],
+                "opera": ["11.60", "11.61", "11.62", "11.64", 12, "12.01", "12.02", "12.10"]
+            }
+        }
+    },
+    {
+        "name": "cursor",
+        "spec": "http://dev.w3.org/csswg/css3-ui/#cursor",
+        "support": {
+            "unprefixed": {
+                "all": "Safari, Chrome, Fx, IE, O",
+                "safari": [4,5],
+                "chrome": [23],
+                "fx": [4,5,6,7,8,9,10,11,12,13,14,15,16,17,18],
+                "ie": [8,9,10],
+                "opera": ["11.60", "11.61", "11.62", "11.64", 12, "12.01", "12.02", "12.10"]
+            }
+        }
+    },
+    {
+        "name": "dashboard-region",
+        "support": {
+            "webkit": {
+                "all": "Safari, Chrome",
+                "safari": [4,5],
+                "chrome": [23]
+            }
+        }
+    },
+    {
+        "name": "device-pixel-ratio",
+        "support": {
+            "o": {
+                "all": "O",
+                "opera": ["11.60", "11.61", "11.62", "11.64", 12, "12.01", "12.02", "12.10"]
+            }
+        }
+    },
+    {
+        "name": "direction",
+        "spec": "http://www.w3.org/TR/CSS2/visuren.html#direction",
+        "support": {
+            "unprefixed": {
+                "all": "Safari, Chrome, Fx, IE, O",
+                "safari": [4,5],
+                "chrome": [23],
+                "fx": [4,5,6,7,8,9,10,11,12,13,14,15,16,17,18],
+                "ie": [8,9,10],
+                "opera": ["11.60", "11.61", "11.62", "11.64", 12, "12.01", "12.02", "12.10"]
+            }
+        }
+    },
+    {
+        "name": "display",
+        "spec": "http://dev.w3.org/csswg/css3-box/#display",
+        "support": {
+            "unprefixed": {
+                "all": "Safari, Chrome, Fx, IE, O",
+                "safari": [4,5],
+                "chrome": [23],
+                "fx": [4,5,6,7,8,9,10,11,12,13,14,15,16,17,18],
+                "ie": [8,9,10],
+                "opera": ["11.60", "11.61", "11.62", "11.64", 12, "12.01", "12.02", "12.10"]
+            }
+        }
+    },
+    {
+        "name": "empty-cells",
+        "spec": "http://www.w3.org/TR/CSS2/tables.html#empty-cells",
+        "support": {
+            "unprefixed": {
+                "all": "Safari, Chrome, Fx, IE, O",
+                "safari": [4,5],
+                "chrome": [23],
+                "fx": [4,5,6,7,8,9,10,11,12,13,14,15,16,17,18],
+                "ie": [8,9,10],
+                "opera": ["11.60", "11.61", "11.62", "11.64", 12, "12.01", "12.02", "12.10"]
+            }
+        }
+    },
+    {
+        "name": "filter",
+        "spec": "http://dvcs.w3.org/hg/FXTF/raw-file/tip/filters/index.html#FilterProperty",
+        "support": {
+            "webkit": {
+                "all": "Chrome",
+                "chrome": [23]
+            },
+            "ms": {
+                "all": "IE",
+                "ie": [8,9,10]
+            }
+        }
+    },
+    {
+        "name": "flex",
+        "spec": "http://dev.w3.org/csswg/css3-flexbox/#flex",
+        "support": {
+            "webkit": {
+                "all": "Chrome",
+                "chrome": [23]
+            },
+            "ms": {
+                "all": "IE 10",
+                "ie": [10]
+            },
+            "unprefixed": {
+                "all": "Fx 18+, O 12.10+",
+                "fx": [18],
+                "opera": ["12.10"]
+            }
+        }
+    },
+    {
+        "name": "flex-align",
+        "spec": "http://msdn.microsoft.com/en-us/library/ie/jj127298(v=vs.85).aspx",
+        "support": {
+            "ms": {
+                "all": "IE 10",
+                "ie": [10]
+            }
+        }
+    },
+    {
+        "name": "flex-basis",
+        "spec": "http://dev.w3.org/csswg/css3-flexbox/#flex-basis",
+        "support": {
+            "webkit": {
+                "all": "Chrome",
+                "chrome": [23]
+            },
+            "unprefixed": {
+                "all": "Fx 18+, O 12.10+",
+                "fx": [18],
+                "opera": ["12.10"]
+            }
+        }
+    },
+    {
+        "name": "flex-direction",
+        "spec": "http://dev.w3.org/csswg/css3-flexbox/#flex-direction",
+        "support": {
+            "webkit": {
+                "all": "Chrome",
+                "chrome": [23]
+            },
+            "ms": {
+                "all": "IE 10",
+                "ie": [10]
+            },
+            "unprefixed": {
+                "all": "Fx 18+, O 12.10",
+                "fx": [18],
+                "opera": ["12.10"]
+            }
+        }
+    },
+    {
+        "name": "flex-flow",
+        "spec": "http://dev.w3.org/csswg/css3-flexbox/#flex-flow",
+        "support": {
+            "webkit": {
+                "all": "Chrome",
+                "chrome": [23]
+            },
+            "unprefixed": {
+                "all": "Fx 18+, O 12.10",
+                "fx": [18],
+                "opera": ["12.10"]
+            }
+        }
+
+    },
+    {
+        "name": "flex-grow",
+        "spec": "http://dev.w3.org/csswg/css3-flexbox/#flex-grow",
+        "webkit": {
+            "all": "Chrome",
+            "chrome": [23]
+        },
+        "unprefixed": {
+            "all": "Fx 18+, O 12.10",
+            "fx": [18],
+            "opera": ["12.10"]
+        }
+    },
+    {
+        "name": "flex-order",
+        "spec": "http://msdn.microsoft.com/en-us/library/ie/jj127303(v=vs.85).aspx"
+    },
+    {
+        "name": "flex-pack",
+        "spec": "http://msdn.microsoft.com/en-us/library/ie/jj127304(v=vs.85).aspx"
+    },
+    {
+        "name": "flex-shrink",
+        "spec": "http://dev.w3.org/csswg/css3-flexbox/#flex-shrink"
+    },
+    {
+        "name": "flex-wrap",
+        "spec": "http://dev.w3.org/csswg/css3-flexbox/#flex-wrap"
+    },
+    {
+        "name": "float",
+        "spec": "http://www.w3.org/TR/CSS1/#float"
+    },
+    {
+        "name": "flow-from",
+        "spec": ""
+    },
+    {
+        "name": "flow-intro",
+        "spec": ""
+    },
+    {
+        "name": "font",
+        "spec": "http://dev.w3.org/csswg/css3-fonts/#font"
+    },
+    {
+        "name": "font-family",
+        "spec": "http://dev.w3.org/csswg/css3-fonts/#font-family-prop",
+        "support": {
+            "unprefixed": {
+                "all": "Safari, Chrome, Fx, IE, O",
+                "safari": [4,5],
+                "chrome": [23],
+                "fx": [],
+                "ie": [],
+                "opera": []
+            }
+        }
+    },
+    {
+        "name": "font-feature-settings",
+        "spec": "http://dev.w3.org/csswg/css3-fonts/#propdef-font-feature-settings",
+        "support": {
+            "unprefixed": {
+                "all": "IE 10",
+                "ie": [10]
+            },
+            "webkit": {
+                "all": "Chrome",
+                "chrome": [23]
+            },
+            "moz": {
+                "all": "Fx",
+                "fx": []
+            }
+        }
+    },
+    {
+        "name": "font-kerning",
+        "spec": "",
+        "support": {
+            "webkit": {
+                "all": "Chrome",
+                "chrome": [23]
+            }
+        }
+    },
+    {
+        "name": "font-language-override",
+        "spec": "",
+        "support": {
+            "moz": {
+                "all": "Fx",
+                "fx": []
+            }
+        }
+    },
+    {
+        "name": "font-language-override",
+        "spec": "",
+        "support": {
+            "moz": {
+                "all": "Fx",
+                "fx": []
+            }
+        }
+    },
+    {
+        "name": "font-size",
+        "spec": "http://dev.w3.org/csswg/css3-fonts/#propdef-font-size",
+        "support": {
+            "unprefixed": {
+                "all": "Safari, Chrome, Fx, IE, O",
+                "safari": [4,5],
+                "chrome": [23],
+                "fx": [],
+                "ie": [],
+                "opera": []
+            }
+        }
+    },
+    {
+        "name": "font-size-adjust",
+        "spec": "http://dev.w3.org/csswg/css3-fonts/#propdef-font-size-adjust",
+        "support": {
+            "unprefixed": {
+                "all": "Fx, IE 10",
+                "fx": [],
+                "ie": []
+            }
+        }
+    },
+    {
+        "name": "font-size-delta",
+        "spec": "",
+        "support": {
+            "webkit": {
+                "all": "Chrome",
+                "chrome": [23]
+            }
+        }
+    },
+    {
+        "name": "font-smoothing",
+        "spec": "",
+        "support": {
+            "webkit": {
+                "all": "Chrome",
+                "chrome": [23]
+            }
+        }
+    },
+    {
+        "name": "font-stretch",
+        "spec": "",
+        "support": {
+            "spec": "http://dev.w3.org/csswg/css3-fonts/#propdef-font-stretch",
+            "support": {
+                "unprefixed": {
+                    "all": "Chrome, Fx 9+, IE 9+",
+                    "chrome": [23],
+                    "fx": [],
+                    "ie": [9,10]
+                }
+            }
+        }
+    },
+    {
+        "name": "font-style",
+        "spec": "http://dev.w3.org/csswg/css3-fonts/#font-style-prop",
+        "support":{
+            "unprefixed": {
+                "all": "Safari, Chrome, Fx, IE, O",
+                "safari": [],
+                "chrome": [23],
+                "fx": [],
+                "ie": [],
+                "opera": []
+            }
+        }
+    },
+    {
+        "name": "font-variant",
+        "spec": "http://dev.w3.org/csswg/css3-fonts/#propdef-font-variant",
+        "support": {
+            "unprefixed": {
+                "all": "Safari, Chrome, Fx, IE, O",
+                "safari": [],
+                "chrome": [23],
+                "fx": [],
+                "ie": [],
+                "opera": []
+            }
+        }
+    },
+    {
+        "name": "font-variant-ligatures",
+        "spec": "",
+        "support": {
+            "webkit": {
+                "all": "Chrome",
+                "chrome": [23]
+            }
+        }
+    },
+    {
+        "name": "font-weight",
+        "spec": "http://dev.w3.org/csswg/css3-fonts/#font-weight-prop",
+        "support": {
+            "unprefixed": {
+                "all": "Safari, Chrome, Fx, IE, O",
+                "safari": [],
+                "chrome": [23],
+                "fx": [],
+                "ie": [],
+                "opera": []
+            }
+        }
+    },
+    {
+        "name": "grid-column",
+        "spec": "http://msdn.microsoft.com/en-us/library/ie/hh772242(v=vs.85).aspx",
+        "support": {
+            "webkit": {
+                "all": "Chrome",
+                "chrome": [23]
+            },
+            "ms": {
+                "all": "IE 10",
+                "ie": [10]
+            }
+        }
+    },
+    {
+        "name": "grid-column-align",
+        "spec": "http://msdn.microsoft.com/en-us/library/ie/hh772245(v=vs.85).aspx",
+        "support": {
+            "ms": {
+                "all": "IE 10",
+                "ie": [10]
+            }
+        }
+    },
+    {
+        "name": "grid-column-span",
+        "spec": "http://msdn.microsoft.com/en-us/library/ie/hh772248(v=vs.85).aspx",
+        "support": {
+            "ms": {
+                "all": "IE 10",
+                "ie": [10]
+            }
+        }
+    },
+    {
+        "name": "grid-columns",
+        "spec": "http://msdn.microsoft.com/en-us/library/ie/hh772246(v=vs.85).aspx",
+        "support": {
+            "webkit": {
+                "all": "Chrome",
+                "chrome": [23]
+            },
+            "ms": {
+                "all": "IE 10",
+                "ie": [10]
+            }
+        }
+    },
+    {
+        "name": "grid-row",
+        "spec": "http://msdn.microsoft.com/en-us/library/ie/hh772254(v=vs.85).aspx",
+        "support": {
+            "webkit": {
+                "all": "Chrome",
+                "chrome": [23]
+            },
+            "ms": {
+                "all": "IE 10",
+                "ie": [10]
+            }
+        }
+    },
+    {
+        "name": "grid-row-align",
+        "spec": "http://msdn.microsoft.com/en-us/library/ie/hh772256(v=vs.85).aspx",
+        "support": {
+
+        }
+    },
+    {
+        "name": "grid-row-span",
+        "spec": "http://msdn.microsoft.com/en-us/library/ie/hh772260(v=vs.85).aspx",
+        "support": {
+            "ms": {
+                "all": "IE 10",
+                "ie": [10]
+            }
+        }
+    },
+    {
+        "name": "grid-rows",
+        "spec": "http://msdn.microsoft.com/en-us/library/ie/hh772258(v=vs.85).aspx",
+        "support": {
+            "webkit": {
+                "all": "Chrome",
+                "chrome": [23]
+            },
+            "ms": {
+                "all": "IE 10",
+                "ie": [10]
+            }
+        }
+    },
+    {
+        "name": "height",
+        "spec": "http://dev.w3.org/csswg/css3-box/#the-width-and-height-properties",
+        "support": {
+            "unprefixed": {
+                "all": "Safari, Chrome, Fx, IE, O",
+                "safari": [],
+                "chrome": [23],
+                "fx": [],
+                "ie": [],
+                "opera": []
+            }
+        }
+    },
+    {
+        "name": "high-contrast-adjust",
+        "spec": "http://msdn.microsoft.com/en-us/library/ie/hh771863(v=vs.85).aspx",
+        "support": {
+            "ms": {
+                "all": "IE 10",
+                "ie": [10]
+            }
+        }
+    },
+    {
+        "name": "highlight",
+        "spec": "",
+        "support": {
+            "webkit": {
+                "all": "Chrome",
+                "chrome": [23]
+            }
+        }
+    },
+    {
+        "name": "hyphenate-character",
+        "spec": "",
+        "support": {
+            "webkit" : {
+                "all": "Chrome",
+                "chrome": [23]
+            }
+        }
+    },
+    {
+        "name": "hyphenate-limit-after",
+        "spec": "",
+        "support": {
+            "all": "Chrome",
+            "chrome": [23]
+        }
+    },
+    {
+        "name": "hyphenate-limit-before",
+        "spec": "",
+        "suport": {
+            "all": "Chrome",
+            "chrome": [23]
+        }
+    },
+    {
+        "name": "hyphenate-limit-chars",
+        "spec": "http://msdn.microsoft.com/en-us/library/ie/hh771865(v=vs.85).aspx",
+        "support": {
+            "ms": {
+                "all": "IE 10",
+                "ie": [10]
+            }
+        }
+    },
+    {
+        "name": "hyphenate-limit-lines",
+        "spec": "http://msdn.microsoft.com/en-us/library/ie/hh771867(v=vs.85).aspx",
+        "support": {
+            "webkit" : {
+                "all": "Chrome",
+                "chrome": [23]
+            },
+            "ms": {
+                "all": "IE 10",
+                "ie": [10]
+            }
+        }
+    },
+    {
+        "name": "hyphenate-limit-zone",
+        "spec": "http://msdn.microsoft.com/en-us/library/ie/hh771869(v=vs.85).aspx",
+        "support": {
+            "ms": {
+                "all": "IE 10",
+                "ie": [10]
+            }
+        }
+    },
+    {
+        "name": "hyphens",
+        "spec": "http://dev.w3.org/csswg/css3-text/#hyphens",
+        "support": {
+            "webkit": {
+                "all": "Safari 5.1+, Chrome",
+                "safari": ["5.1", 6],
+                "chrome": [23]
+            },
+            "moz": {
+                "all": "Fx 6+",
+                "fx": [6,7,8,9,10,11,12,13,14,15,16,17]
+            },
+            "ms": {
+                "all": "IE 10",
+                "ie": [10]
+            }
+        }
+    },
+    {
+        "name": "icon"
+    },
+    {
+        "name": "image-region",
+        "spec": "https://developer.mozilla.org/en-US/docs/CSS/-moz-image-region",
+        "support": {
+            "moz": {
+                "all": "Fx",
+                "fx": [1,2,3,4]
+            }
+        }
+    },
+    {
+        "name": "image-rendering",
+        "spec": "http://dev.w3.org/csswg/css4-images/#image-rendering",
+        "support": {
+            "unprefixed": {
+                "all": "Safari 5+, Chrome, Fx, O",
+                "safari": [5,6],
+                "chrome": [23],
+                "fx": [5,6,7,8,~]
+                "opera": [~]
+            }
+        }
+    },
+    {
+        "name": "image-resolution",
+        "support": {
+            "unprefixed": {
+                "all": "Chrome",
+                "chrome": [23]
+            }
+        }
+    },
+    {
+        "name": "image-orientation",
+        "spec": "http://dev.w3.org/csswg/css3-images/#image-orientation",
+        "support": {
+            "unprefixed": {
+                "all": "Chrome",
+                "chrome": [23]
+            }
+        }
+    },
+    {
+        "name": "ime-mode",
+        "spec": "http://dev.w3.org/csswg/css3-ui/#input-method-editor",
+        "support": {
+            "unprefixed": {
+                "all": "Fx, IE",
+                "fx": [~],
+                "ie": [~]
+            }
+        }
+    },
+    {
+        "name": "interpolation-mode",
+        "spec": "http://msdn.microsoft.com/en-us/library/ie/ms530822(v=vs.85).aspx",
+        "support": {
+            "ms": {
+                "all": "IE 10",
+                "ie": [10]
+            }
+        }
+    },
+    {
+        "name": "justify-content",
+        "spec": "http://dev.w3.org/csswg/css3-flexbox/#justify-content",
+        "suppport": {
+            "unprefixed": {
+                "all": "Fx 18+, O 12.10+",
+                "fx": [18, ~],
+                "opera": ["12.10", ~]
+            },
+            "webkit": {
+                "all": "Chrome",
+                "chrome": [23]
+            }
+        }
+    },
+    {
+        "name": "layout-flow",
+        "spec": "http://msdn.microsoft.com/en-us/library/ie/ms530770(v=vs.85).aspx",
+        "support": {
+            "ms": {
+                "all": "IE 10",
+                "ie": [10]
+            }
+        }
+    },
+    {
+        "name": "layout-grid",
+        "spec": "http://msdn.microsoft.com/en-us/library/ie/ms530771(v=vs.85).aspx",
+        "support": {
+            "ms": {
+                "all": "IE 10",
+                "ie": [10]
+            }
+        }
+    },
+    {
+        "name": "layout-grid-char",
+        "spec": "http://msdn.microsoft.com/en-us/library/ie/ms530772(v=vs.85).aspx",
+        "support": {
+            "ms": {
+                "all": "IE 10",
+                "ie": [10]
+            }
+        }
+    },
+    {
+        "name": "layout-grid-line",
+        "spec": "http://msdn.microsoft.com/en-us/library/ie/ms530773(v=vs.85).aspx",
+        "support": {
+            "ms": {
+                "all": "IE 10",
+                "ie": [10]
+            }
+        }
+    },
+    {
+        "name": "layout-grid-mode",
+        "spec": "http://msdn.microsoft.com/en-us/library/ie/ms530774(v=vs.85).aspx",
+        "support": {
+            "ms": {
+                "all": "IE 10",
+                "ie": [10]
+            }
+        }
+    },
+    {
+        "name": "layout-grid-type",
+        "spec": "http://msdn.microsoft.com/en-us/library/ie/ms530775(v=vs.85).aspx",
+        "support": {
+            "ms": {
+                "all": "IE 10",
+                "ie": [10]
+            }
+        }
+    },
+    {
+        "name": "left",
+        "spec": "http://www.w3.org/TR/CSS2/visuren.html#propdef-left",
+        "support": {
+            "unprefixed": {
+                "all": "Safari, Chrome, Fx, IE, O",
+                "safari": [~],
+                "chrome": [23],
+                "fx": [~],
+                "ie": [~],
+                "opera": [~]
+            }
+        }
+    },
+    {
+        "name": "letter-spacing",
+        "spec": "http://dev.w3.org/csswg/css3-text/#letter-spacing",
+        "support": {
+            "unprefixed": {
+                "all": "Safari, Chrome, Fx, IE, O",
+                "safari": [~],
+                "chrome": [23],
+                "fx": [~],
+                "ie": [~],
+                "opera": [~]
+            }
+        }
+    },
+    {
+        "name": "line-align",
+        "support": {
+            "webkit": {
+                "all": "Chrome",
+                "chrome": [23]
+            }
+        }
+    },
+    {
+        "name": "line-box-contain",
+        "support": {
+            "webkit": {
+                "all": "Chrome",
+                "chrome": [23]
+            }
+        }
+    },
+    {
+        "name": "line-break",
+        "support": {
+            "webkit": {
+                "all": "Safari, Chrome",
+                "safari": [~],
+                "chrome": [23]
+            },
+            "ms": {
+                "all": "IE",
+                "ie": [~]
+            }
+        }
+    },
+    {
+        "name": "line-clamp",
+        "support": {
+            "webkit": {
+                "all": "Chrome",
+                "chrome": [23]
+            }
+        }
+    },
+    {
+        "name": "line-grid",
+        "support": {
+            "webkit": {
+                "all": "Chrome",
+                "chrome": [23]
+            }
+        }
+    },
+    {
+        "name": "line-height",
+        "spec": "http://www.w3.org/TR/CSS1/#line-height",
+        "support": {
+            "unprefixed": {
+                "all": "Safari, Chrome, Fx, IE, O",
+                "safari": [5,6],
+                "chrome": [23],
+                "fx": [~],
+                "ie": [~],
+                "opera": "~"
+            }
+        }
+    },
+    {
+        "name": "line-snap",
+        "support": {
+            "webkit": {
+                "all": "Chrome",
+                "chrome": [23]
+            }
+        }
+    },
+    {
+        "name": "list-style",
+        "spec": "http://dev.w3.org/csswg/css3-lists/#list-style",
+        "support": {
+            "unprefixed": {
+                "all": "Safari, Chrome, Fx, IE, O"
+            }
+        }
+    },
+    {
+        "name": "list-style-image",
+        "spec": "http://dev.w3.org/csswg/css3-lists/#list-style-image",
+        "support": {
+            "unprefixed": {
+                "all": "Safari, Chrome, Fx, IE, O"
+            }
+        }
+    },
+    {
+        "name": "list-style-position",
+        "spec": "http://dev.w3.org/csswg/css3-lists/#list-style-position",
+        "support": {
+            "unprefixed": {
+                "all": "Safari, Chrome, Fx, IE, O"
+            }
+        }
+    },
+    {
+        "name": "list-style-type",
+        "spec": "http://dev.w3.org/csswg/css3-lists/#list-style-type",
+        "support": {
+            "unprefixed": {
+                "all": "Safari, Chrome, Fx, IE, O"
+            }
+        }
+    },
+    {
+        "name": "locale",
+        "support": {
+            "webkit": {
+                "all": "Chrome"
+            }
+        }
+    },
+    {
+        "name": "logical-height",
+        "support": {
+            "webkit": {
+                "all": "Chrome"
+            }
+        }
+    },
+    {
+        "name": "logical-width",
+        "support": {
+            "webkit": {
+                "all": "Chrome"
+            }
+        }
+    },
+    {
+        "name": "margin",
+        "spec": "http://www.w3.org/TR/CSS1/#margin",
+        "support": {
+            "unprefixed": {
+                "all": "Safari, Chrome, Fx, IE, O"
+            }
+        }
+    },
+    {
+        "name": "margin-after",
+        "support": {
+            "webkit": {
+                "all": "Chrome"
+            }
+        }
+    },
+    {
+        "name": "margin-after-collapse",
+        "support": {
+            "webkit": {
+                "all": "Chrome"
+            }
+        }
+    },
+    {
+        "name": "margin-before",
+        "support": {
+            "webkit": {
+                "all": "Chrome"
+            }
+        }
+    },
+    {
+        "name": "margin-before-collapse",
+        "support": {
+            "webkit": {
+                "all": "Chrome"
+            }
+        }
+    },
+    {
+        "name": "margin-bottom",
+        "spec": "http://www.w3.org/TR/CSS1/#margin-bottom",
+        "support": {
+            "unprefixed": {
+                "all": "Safari, Chrome, Fx, IE, O"
+            }
+        }
+    },
+    {
+        "name": "margin-bottom-collapse",
+        "spec": "http://developer.apple.com/library/safari/documentation/appleapplications/reference/safaricssref/Articles/StandardCSSProperties.html#//apple_ref/doc/uid/TP30001266--webkit-margin-bottom-collapse",
+        "support": {
+            "webkit": {
+                "all": "Safari, Chrome"
+            }
+        }
+    },
+    {
+        "name": "margin-collapse",
+        "spec": "http://developer.apple.com/library/safari/documentation/appleapplications/reference/safaricssref/Articles/StandardCSSProperties.html#//apple_ref/doc/uid/TP30001266--webkit-margin-collapse",
+        "support": {
+            "webkit": {
+                "all": "Safari, Chrome"
+            }
+        }
+    },
+    {
+        "name": "margin-end",
+        "spec": "https://developer.mozilla.org/en-US/docs/CSS/-moz-margin-end",
+        "support": {
+            "webkit": {
+                "all": "Safari, Chrome",
+            },
+            "moz": {
+                "all": "Fx"
+            }
+        }
+    },
+    {
+        "name": "margin-left",
+        "spec": "http://www.w3.org/TR/CSS1/#margin-left",
+        "support": {
+            "unprefixed": {
+                "all": "Safari, Chrome, Fx, IE, O"
+            }
+        }
+    },
+    {
+        "name": "margin-right",
+        "spec": "http://www.w3.org/TR/CSS1/#margin-right",
+        "support": {
+            "unprefixed": {
+                )</td><td>Safari, Chrome, Fx, IE, O</td><td></td><td></td><td></td><td></td></tr>
+    "margin-start](http://developer.apple.com/library/safari/documentation/appleapplications/reference/safaricssref/Articles/StandardCSSProperties.html#//apple_ref/doc/uid/TP30001266--webkit-margin-start)</td><td></td><td>Safari, Chrome</td><td>Fx</td><td></td><td></td></tr>
+    "margin-top](http://www.w3.org/TR/CSS1/#margin-top)</td><td>Safari, Chrome, Fx, IE, O</td><td></td><td></td><td></td><td></td></tr>
+    "margin-top-collapse](http://developer.apple.com/library/safari/documentation/appleapplications/reference/safaricssref/Articles/StandardCSSProperties.html#//apple_ref/doc/uid/TP30001266--webkit-margin-top-collapse)</td><td></td><td>Safari, Chrome</td><td></td><td></td><td></td></tr>
+    "marks](http://dev.w3.org/csswg/css3-gcpm/#marks)</td><td></td><td></td><td></td><td></td><td></td></tr>
+    "marquee</td><td></td><td>Safari, Chrome</td><td></td><td></td><td></td></tr>
+    "marquee-direction</td><td></td><td>Safari, Chrome</td><td></td><td></td><td></td></tr>
+    "marquee-increment</td><td></td><td>Safari, Chrome</td><td></td><td></td><td></td></tr>
+    "marquee-repetition</td><td></td><td>Safari, Chrome</td><td></td><td></td><td></td></tr>
+    "marquee-play-count</td><td></td><td></td><td></td><td></td><td></td></tr>
+    "marquee-speed</td><td></td><td>Safari, Chrome</td><td></td><td></td><td></td></tr>
+    "marquee-style</td><td></td><td>Safari, Chrome</td><td></td><td></td><td></td></tr>
+    "mask](http://developer.apple.com/library/safari/documentation/appleapplications/reference/safaricssref/Articles/StandardCSSProperties.html#//apple_ref/doc/uid/TP30001266-SW17)</td><td></td><td>Safari, Chrome</td><td></td><td></td><td></td></tr>
+    "mask-attachment](http://developer.apple.com/library/safari/documentation/appleapplications/reference/safaricssref/Articles/StandardCSSProperties.html#//apple_ref/doc/uid/TP30001266-SW3)</td><td></td><td>Safari, Chrome</td><td></td><td></td><td></td></tr>
+    "mask-box-image](http://developer.apple.com/library/safari/documentation/appleapplications/reference/safaricssref/Articles/StandardCSSProperties.html#//apple_ref/doc/uid/TP30001266-SW14)</td><td></td><td>Safari, Chrome</td><td></td><td></td><td></td></tr>
+    "mask-box-image-outset</td><td></td><td>Chrome</td><td></td><td></td><td></td></tr>
+    "mask-box-image-repeat</td><td></td><td>Chrome</td><td></td><td></td><td></td></tr>
+    "mask-box-image-slice</td><td></td><td>Chrome</td><td></td><td></td><td></td></tr>
+    "mask-box-image-source</td><td></td><td>Chrome</td><td></td><td></td><td></td></tr>
+    "mask-box-image-width</td><td></td><td>Chrome</td><td></td><td></td><td></td></tr>
+    "mask-clip](http://developer.apple.com/library/safari/documentation/appleapplications/reference/safaricssref/Articles/StandardCSSProperties.html#//apple_ref/doc/uid/TP30001266-SW4)</td><td></td><td>Safari, Chrome</td><td></td><td></td><td></td></tr>
+    "mask-composite](http://developer.apple.com/library/safari/documentation/appleapplications/reference/safaricssref/Articles/StandardCSSProperties.html#//apple_ref/doc/uid/TP30001266-SW13)</td><td></td><td>Safari, Chrome</td><td></td><td></td><td></td></tr>
+    "mask-image](http://developer.apple.com/library/safari/documentation/appleapplications/reference/safaricssref/Articles/StandardCSSProperties.html#//apple_ref/doc/uid/TP30001266-SW7)</td><td></td><td>Safari, Chrome</td><td></td><td></td><td></td></tr>
+    "mask-origin](http://developer.apple.com/library/safari/documentation/appleapplications/reference/safaricssref/Articles/StandardCSSProperties.html#//apple_ref/doc/uid/TP30001266-SW6)</td><td></td><td>Safari, Chrome</td><td></td><td></td><td></td></tr>
+    "mask-position](http://developer.apple.com/library/safari/documentation/appleapplications/reference/safaricssref/Articles/StandardCSSProperties.html#//apple_ref/doc/uid/TP30001266-SW18)</td><td></td><td>Safari, Chrome</td><td></td><td></td><td></td></tr>
+    "mask-position-x](http://developer.apple.com/library/safari/documentation/appleapplications/reference/safaricssref/Articles/StandardCSSProperties.html#//apple_ref/doc/uid/TP30001266-SW19)</td><td></td><td>Safari, Chrome</td><td></td><td></td><td></td></tr>
+    "mask-position-y](http://developer.apple.com/library/safari/documentation/appleapplications/reference/safaricssref/Articles/StandardCSSProperties.html#//apple_ref/doc/uid/TP30001266-SW20)</td><td></td><td>Safari, Chrome</td><td></td><td></td><td></td></tr>
+    "mask-repeat](http://developer.apple.com/library/safari/documentation/appleapplications/reference/safaricssref/Articles/StandardCSSProperties.html#//apple_ref/doc/uid/TP30001266-SW8)</td><td></td><td>Safari, Chrome</td><td></td><td></td><td></td></tr>
+    "mask-repeat-x</td><td></td><td>Chrome</td><td></td><td></td><td></td></tr>
+    "mask-repeat-y</td><td></td><td>Chrome</td><td></td><td></td><td></td></tr>
+    "mask-size](http://developer.apple.com/library/safari/documentation/appleapplications/reference/safaricssref/Articles/StandardCSSProperties.html#//apple_ref/doc/uid/TP30001266-SW21)</td><td></td><td>Safari, Chrome</td><td></td><td></td><td></td></tr>
+    "match-nearest-mail-blockquote-color</td><td></td><td>Chrome</td><td></td><td></td><td></td></tr>
+    "max-height](http://www.w3.org/TR/CSS2/visudet.html#propdef-max-height)</td><td>Safari, Chrome, Fx, IE, O</td><td></td><td></td><td></td><td></td></tr>
+    "max-logical-height</td><td></td><td>Chrome</td><td></td><td></td><td></td></tr>
+    "max-logical-width</td><td></td><td>Chrome</td><td></td><td></td><td></td></tr>
+    "max-width](http://www.w3.org/TR/CSS2/visudet.html#propdef-max-width)</td><td>Safari, Chrome, Fx, IE, O</td><td></td><td></td><td></td><td></td></tr>
+    "max-zoom</td><td>Chrome</td><td></td><td></td><td></td><td></td></tr>
+    "min-height](http://www.w3.org/TR/CSS2/visudet.html#propdef-min-height)</td><td>Safari, Chrome, Fx, IE, O</td><td></td><td></td><td></td><td></td></tr>
+    "min-logical-height</td><td></td><td>Chrome</td><td></td><td></td><td></td></tr>
+    "min-logical-width</td><td></td><td>Chrome</td><td></td><td></td><td></td></tr>
+    "min-width](http://www.w3.org/TR/CSS2/visudet.html#propdef-min-width)</td><td>Safari, Chrome, Fx, IE, O</td><td></td><td></td><td></td><td></td></tr>
+    "min-zoom</td><td>Chrome</td><td></td><td></td><td></td><td></td></tr>
+    "nav-down](http://dev.w3.org/csswg/css3-ui/#nav-down)</td><td>O</td><td></td><td></td><td></td><td></td></tr>
+    "nav-index](http://dev.w3.org/csswg/css3-ui/#nav-index0)</td><td>O</td><td></td><td></td><td></td><td></td></tr>
+    "nav-left](http://dev.w3.org/csswg/css3-ui/#nav-left)</td><td>O</td><td></td><td></td><td></td><td></td></tr>
+    "nav-right](http://dev.w3.org/csswg/css3-ui/#nav-right)</td><td>O</td><td></td><td></td><td></td><td></td></tr>
+    "nav-up](http://dev.w3.org/csswg/css3-ui/#nav-up)</td><td>O</td><td></td><td></td><td></td><td></td></tr>
+    "nbsp-mode</td><td></td><td>Safari, Chrome</td><td></td><td></td><td></td></tr>
+    "object-fit](http://dev.w3.org/csswg/css3-images/#object-fit)</td><td></td><td></td><td></td><td></td><td>O</td></tr>
+    "object-position](http://dev.w3.org/csswg/css3-images/#object-position)</td><td></td><td></td><td></td><td></td><td>O</td></tr>
+    "opacity](http://dev.w3.org/csswg/css3-color/#opacity)</td><td>Safari, Chrome, Fx, IE 9+, O</td><td></td><td></td><td></td><td></td></tr>
+    "order](http://dev.w3.org/csswg/css3-flexbox/#order-property)</td><td>Fx 18+, O 12.10+</td><td>Chrome</td><td></td><td></td><td></td></tr>
+    "orient](https://developer.mozilla.org/en-US/docs/CSS/-moz-orient)</td><td></td><td></td><td>Fx</td><td></td><td></td></tr>
+    "orientation</td><td>Chrome</td><td></td><td></td><td></td><td></td></tr>
+    "orphans](http://dev.w3.org/csswg/css3-page/#orphans)</td><td>Safari, Chrome, Fx, IE, O</td><td></td><td></td><td></td><td></td></tr>
+    "outline](http://dev.w3.org/csswg/css3-ui/#outline)</td><td>Safari, Chrome, Fx, IE, O</td><td></td><td></td><td></td><td></td></tr>
+    "outline-color](http://dev.w3.org/csswg/css3-ui/#outline-color)</td><td>Safari, Chrome, Fx, IE, O</td><td></td><td></td><td></td><td></td></tr>
+    "outline-offset](http://dev.w3.org/csswg/css3-ui/#outline-offset)</td><td>Safari, Chrome, Fx, O</td><td></td><td></td><td></td><td></td></tr>
+    "outline-radius](https://developer.mozilla.org/en-US/docs/CSS/-moz-outline-radius)</td><td></td><td></td><td>Fx</td><td></td><td></td></tr>
+    "outline-radius-bottomleft](https://developer.mozilla.org/en-US/docs/CSS/-moz-outline-radius-bottomleft)</td><td></td><td></td><td>Fx</td><td></td><td></td></tr>
+    "outline-radius-bottomright](https://developer.mozilla.org/en-US/docs/CSS/-moz-outline-radius-bottomright)</td><td></td><td></td><td>Fx</td><td></td><td></td></tr>
+    "outline-radius-topleft](https://developer.mozilla.org/en-US/docs/CSS/-moz-outline-radius-topleft)</td><td></td><td></td><td>Fx</td><td></td><td></td></tr>
+    "outline-radius-topright](https://developer.mozilla.org/en-US/docs/CSS/-moz-outline-radius-topright)</td><td></td><td></td><td>Fx</td><td></td><td></td></tr>
+    "outline-style](http://dev.w3.org/csswg/css3-ui/#outline-style)</td><td>Safari, Chrome, Fx, IE, O</td><td></td><td></td><td></td><td></td></tr>
+    "outline-width](http://dev.w3.org/csswg/css3-ui/#outline-width)</td><td>Safari, Chrome, Fx, IE, O</td><td></td><td></td><td></td><td></td></tr>
+    "overflow](http://dev.w3.org/csswg/css3-box/#overflow1)</td><td>Safari, Chrome, Fx, IE, O</td><td></td><td></td><td></td><td></td></tr>
+    "overflow-scrolling</td><td></td><td>Safari iOS, Chrome</td><td></td><td></td><td></td></tr>
+    "overflow-style]</td><td></td><td></td><td></td><td>IE 10</td><td></td></tr>
+[overflow-style]: http://msdn.microsoft.com/en-us/library/ie/hh771902(v=vs.85).aspx 
+    "overflow-wrap](http://www.w3.org/TR/css3-text/#overflow-wrap0)</td><td>Chrome</td><td></td><td></td><td></td><td></td></tr>
+    "overflow-x](http://dev.w3.org/csswg/css3-box/#overflow-x)</td><td>Safari, Chrome, Fx, IE, O</td><td></td><td></td><td>IE</td><td></td></tr>
+    "overflow-y](http://dev.w3.org/csswg/css3-box/#overflow-y)</td><td>Safari, Chrome, Fx, IE, O</td><td></td><td></td><td>IE</td><td></td></tr>
+    "padding](http://dev.w3.org/csswg/css3-box/#the-padding)</td><td>Safari, Chrome, Fx, IE, O</td><td></td><td></td><td></td><td></td></tr>
+    "padding-after</td><td></td><td>Chrome</td><td></td><td></td><td></td></tr>
+    "padding-before</td><td></td><td>Chrome</td><td></td><td></td><td></td></tr>
+    "padding-bottom](http://dev.w3.org/csswg/css3-box/#the-padding)</td><td>Safari, Chrome, Fx, IE, O</td><td></td><td></td><td></td><td></td></tr>
+    "padding-end](https://developer.mozilla.org/en-US/docs/CSS/-moz-padding-end)</td><td></td><td>Safari, Chrome</td><td>Fx</td><td></td><td></td></tr>
+    "padding-left](http://dev.w3.org/csswg/css3-box/#the-padding)</td><td>Safari, Chrome, Fx, IE, O</td><td></td><td></td><td></td><td></td></tr>
+    "padding-right](http://dev.w3.org/csswg/css3-box/#the-padding)</td><td>Safari, Chrome, Fx, IE, O</td><td></td><td></td><td></td><td></td></tr>
+    "padding-start](http://developer.apple.com/library/safari/documentation/appleapplications/reference/safaricssref/Articles/StandardCSSProperties.html#//apple_ref/doc/uid/TP30001266--webkit-padding-start)</td><td></td><td>Safari, Chrome</td><td>Fx</td><td></td><td></td></tr>
+    "padding-top](http://dev.w3.org/csswg/css3-box/#the-padding)</td><td>Safari, Chrome, Fx, IE, O</td><td></td><td></td><td></td><td></td></tr>
+    "page</td><td>Chrome</td><td></td><td></td><td></td><td></td></tr>
+    "page-break-after](http://dev.w3.org/csswg/css3-page/#page-break-after)</td><td>Safari, Chrome, Fx, IE, O</td><td></td><td></td><td></td><td></td></tr>
+    "page-break-before](http://dev.w3.org/csswg/css3-page/#page-break-before)</td><td>Safari, Chrome, Fx, IE, O</td><td></td><td></td><td></td><td></td></tr>
+    "page-break-inside](http://dev.w3.org/csswg/css3-page/#page-break-inside)</td><td>Safari, Chrome, Fx 19+, IE, O</td><td></td><td></td><td></td><td></td></tr>
+    "perspective](http://dev.w3.org/csswg/css3-transforms/#perspective)</td><td>Fx 16+, IE 10</td><td>Safari, Chrome</td><td>Fx 10+</td><td></td><td></td></tr>
+    "perspective-origin](http://dev.w3.org/csswg/css3-transforms/#perspective-origin)</td><td>Fx 16+, IE 10</td><td>Safari, Chrome</td><td>Fx 10+</td><td></td><td></td></tr>
+    "perspective-origin-x</td><td></td><td>Chrome</td><td></td><td></td><td></td></tr>
+    "perspective-origin-y</td><td></td><td>Chrome</td><td></td><td></td><td></td></tr>
+    "pointer-events](http://www.w3.org/TR/SVG11/interact.html#PointerEventsProperty)</td><td>Safari, Chrome, Fx</td><td></td><td></td><td></td><td></td></tr>
+    "position](http://www.w3.org/TR/CSS2/visuren.html#propdef-position)</td><td>Safari, Chrome, Fx, IE, O</td><td></td><td></td><td></td><td></td></tr>
+    "print-color-adjust</td><td></td><td>Chrome</td><td></td><td></td><td></td></tr>
+    "progress-appearance]</td><td></td><td></td><td></td><td>IE 10</td><td></td></tr>
+[progress-appearance]: http://msdn.microsoft.com/en-us/library/ie/hh781491(v=vs.85).aspx 
+    "quotes](http://www.w3.org/TR/CSS2/generate.html#quotes)</td><td>Chrome, Fx, IE, O</td><td></td><td></td><td></td><td></td></tr>
+    "region-overflow</td><td></td><td>Chrome</td><td></td><td></td><td></td></tr>
+    "region-break-after](http://dev.w3.org/csswg/css3-regions/#break-after)</td><td></td><td>Chrome</td><td></td><td></td><td></td></tr>
+    "region-break-before](http://dev.w3.org/csswg/css3-regions/#break-before)</td><td></td><td>Chrome</td><td></td><td></td><td></td></tr>
+    "region-break-inside](http://dev.w3.org/csswg/css3-regions/#break-inside)</td><td></td><td>Chrome</td><td></td><td></td><td></td></tr>
+    "resize](http://dev.w3.org/csswg/css3-ui/#resize)</td><td>Safari, Chrome, Fx</td><td></td><td></td><td></td><td></td></tr>
+    "right](http://www.w3.org/TR/CSS2/visuren.html#propdef-right)</td><td>Safari, Chrome, Fx, IE, O</td><td></td><td></td><td></td><td></td></tr>
+    "rtl-ordering</td><td></td><td>Safari, Chrome</td><td></td><td></td><td></td></tr>
+    "ruby-align]</td><td>IE</td><td></td><td></td><td></td><td></td></tr>
+[ruby-align]: http://msdn.microsoft.com/en-us/library/ie/ms531150(v=vs.85).aspx 
+    "ruby-overhang]</td><td>IE</td><td></td><td></td><td></td><td></td></tr>
+[ruby-overhang]: http://msdn.microsoft.com/en-us/library/ie/ms531151(v=vs.85).aspx 
+    "ruby-position]</td><td>IE</td><td></td><td></td><td></td><td></td></tr>
+[ruby-position]: http://msdn.microsoft.com/en-us/library/ie/ms531152(v=vs.85).aspx 
+    "script-level</td><td></td><td></td><td>Fx</td><td></td><td></td></tr>
+    "script-min-size</td><td></td><td></td><td>Fx</td><td></td><td></td></tr>
+    "script-size-multiplier</td><td></td><td></td><td>Fx</td><td></td><td></td></tr>
+    "scrollbar-3dlight-color]</td><td></td><td></td><td></td><td>IE 10</td><td></td></tr>
+[scrollbar-3dlight-color]: http://msdn.microsoft.com/en-us/library/ie/ms531153(v=vs.85).aspx 
+    "scroll-chaining]</td><td></td><td></td><td></td><td>IE 10</td><td></td></tr>
+[scroll-chaining]: http://msdn.microsoft.com/en-us/library/ie/hh772034(v=vs.85).aspx 
+    "scroll-limit]</td><td></td><td></td><td></td><td>IE 10</td><td></td></tr>
+[scroll-limit]: http://msdn.microsoft.com/en-us/library/ie/jj127336(v=vs.85).aspx 
+    "scroll-limit-x-max]</td><td></td><td></td><td></td><td>IE 10</td><td></td></tr>
+[scroll-limit-x-max]: http://msdn.microsoft.com/en-us/library/ie/jj127337(v=vs.85).aspx 
+    "scroll-limit-x-min]</td><td></td><td></td><td></td><td>IE 10</td><td></td></tr>
+[scroll-limit-x-min]: http://msdn.microsoft.com/en-us/library/ie/jj127338(v=vs.85).aspx 
+    "scroll-limit-y-max]</td><td></td><td></td><td></td><td>IE 10</td><td></td></tr>
+[scroll-limit-y-max]: http://msdn.microsoft.com/en-us/library/ie/jj127339(v=vs.85).aspx 
+    "scroll-limit-y-min]</td><td></td><td></td><td></td><td>IE 10</td><td></td></tr>
+[scroll-limit-y-min]: http://msdn.microsoft.com/en-us/library/ie/jj127340(v=vs.85).aspx 
+    "scroll-rails]</td><td></td><td></td><td></td><td>IE 10</td><td></td></tr>
+[scroll-rails]: http://msdn.microsoft.com/en-us/library/ie/hh772035(v=vs.85).aspx 
+    "scroll-snap-points-x]</td><td></td><td></td><td></td><td>IE 10</td><td></td></tr>
+[scroll-snap-points-x]: http://msdn.microsoft.com/en-us/library/ie/hh772036(v=vs.85).aspx 
+    "scroll-snap-points-y]</td><td></td><td></td><td></td><td>IE 10</td><td></td></tr>
+[scroll-snap-points-y]: http://msdn.microsoft.com/en-us/library/ie/hh772037(v=vs.85).aspx 
+    "scroll-snap-type]</td><td></td><td></td><td></td><td>IE 10</td><td></td></tr>
+[scroll-snap-type]: http://msdn.microsoft.com/en-us/library/ie/hh772038(v=vs.85).aspx 
+    "scroll-snap-x]</td><td></td><td></td><td></td><td>IE 10</td><td></td></tr>
+[scroll-snap-x]: http://msdn.microsoft.com/en-us/library/ie/hh772039(v=vs.85).aspx 
+    "scroll-snap-y]</td><td></td><td></td><td></td><td>IE 10</td><td></td></tr>
+[scroll-snap-y]: http://msdn.microsoft.com/en-us/library/ie/hh772040(v=vs.85).aspx 
+    "scroll-translation]</td><td></td><td></td><td></td><td>IE 10</td><td></td></tr>
+[scroll-translation]: http://msdn.microsoft.com/en-us/library/ie/hh973361(v=vs.85).aspx 
+    "scrollbar-arrow-color]</td><td></td><td></td><td></td><td>IE 10</td><td></td></tr>
+[scrollbar-arrow-color]: http://msdn.microsoft.com/en-us/library/ie/ms531154(v=vs.85).aspx 
+    "scrollbar-base-color]</td><td></td><td></td><td></td><td>IE 10</td><td></td></tr>
+[scrollbar-base-color]: http://msdn.microsoft.com/en-us/library/ie/ms531155(v=vs.85).aspx 
+    "scrollbar-darkshadow-color]</td><td></td><td></td><td></td><td>IE 10</td><td></td></tr>
+[scrollbar-darkshadow-color]: http://msdn.microsoft.com/en-us/library/ie/ms531156(v=vs.85).aspx 
+    "scrollbar-face-color]</td><td></td><td></td><td></td><td>IE 10</td><td></td></tr>
+[scrollbar-face-color]: http://msdn.microsoft.com/en-us/library/ie/ms531157(v=vs.85).aspx 
+    "scrollbar-highlight-color]</td><td></td><td></td><td></td><td>IE 10</td><td></td></tr>
+[scrollbar-highlight-color]: http://msdn.microsoft.com/en-us/library/ie/ms531158(v=vs.85).aspx 
+    "scrollbar-shadow-color]</td><td></td><td></td><td></td><td>IE 10</td><td></td></tr>
+[scrollbar-shadow-color]: http://msdn.microsoft.com/en-us/library/ie/ms531159(v=vs.85).aspx 
+    "scrollbar-track-color]</td><td></td><td></td><td></td><td>IE 10</td><td></td></tr>
+[scrollbar-track-color]: http://msdn.microsoft.com/en-us/library/ie/ms531160(v=vs.85).aspx 
+    "shape-inside</td><td></td><td>Chrome</td><td></td><td></td><td></td></tr>
+    "shape-outside</td><td></td><td>Chrome</td><td></td><td></td><td></td></tr>
+    "size</td><td>Chrome</td><td></td><td></td><td></td><td></td></tr>
+    "src](http://developer.apple.com/library/safari/documentation/appleapplications/reference/safaricssref/Articles/StandardCSSProperties.html#//apple_ref/doc/uid/TP30001266-src)</td><td>Safari, Chrome, Fx, IE, O</td><td></td><td></td><td></td><td></td></tr>
+    "speak</td><td>Chrome</td><td></td><td></td><td></td><td></td></tr>
+    "stack-sizing](https://developer.mozilla.org/en-US/docs/CSS/-moz-stack-sizing)</td><td></td><td></td><td>Fx</td><td></td><td></td></tr>
+    "svg-shadow</td><td></td><td>Chrome</td><td></td><td></td><td></td></tr>
+    "tab-size](http://dev.w3.org/csswg/css3-text/#tab-size)</td><td>Chrome</td><td>Fx</td><td></td><td></td><td>O</td></tr>
+    "table-baseline</td><td></td><td></td><td></td><td></td><td>O</td></tr>
+    "table-layout](http://www.w3.org/TR/CSS2/tables.html#width-layout)</td><td>Safari, Chrome, Fx, IE, O</td><td></td><td></td><td></td><td></td></tr>
+    "tap-highlight-color</td><td></td><td>Safari iOS, Chrome</td><td></td><td></td><td></td></tr>
+    "text-align](http://dev.w3.org/csswg/css3-text/#text-align)</td><td>Safari, Chrome, Fx, IE, O</td><td></td><td></td><td></td><td></td></tr>
+    "text-align-last](http://dev.w3.org/csswg/css3-text/#text-align-last)</td><td></td><td></td><td>Fx 12+</td><td>IE 10</td><td></td></tr>
+    "text-autospace]</td><td></td><td></td><td></td><td>IE</td><td></td></tr>
+[text-autospace]: http://msdn.microsoft.com/en-us/library/ie/ms531164(v=vs.85).aspx 
+    "text-blink](https://developer.mozilla.org/en-US/docs/CSS/-moz-text-blink)</td><td></td><td></td><td>Fx</td><td></td><td></td></tr>
+    "text-combine</td><td></td><td>Chrome</td><td></td><td></td><td></td></tr>
+    "text-decoration](http://dev.w3.org/csswg/css3-text/#text-decoration)</td><td>Safari, Chrome, Fx, IE, O</td><td></td><td></td><td></td><td></td></tr>
+    "text-decoration-color](http://dev.w3.org/csswg/css3-text/#text-decoration-color)</td><td></td><td></td><td>Fx 6+</td><td></td><td></td></tr>
+    "text-decoration-line](http://dev.w3.org/csswg/css3-text/#text-decoration-line)</td><td></td><td>Chrome</td><td>Fx 6+</td><td></td><td></td></tr>
+    "text-decoration-skip</td><td></td><td></td><td></td><td></td><td></td></tr>
+    "text-decoration-style](http://dev.w3.org/csswg/css3-text/#text-decoration-style)</td><td></td><td>Chrome</td><td>Fx 6+</td><td></td><td></td></tr>
+    "text-decorations-in-effect</td><td></td><td>Chrome</td><td></td><td></td><td></td></tr>
+    "text-emphasis</td><td></td><td>Chrome</td><td></td><td></td><td></td></tr>
+    "text-emphasis-color</td><td></td><td>Chrome</td><td></td><td></td><td></td></tr>
+    "text-emphasis-position</td><td></td><td>Chrome</td><td></td><td></td><td></td></tr>
+    "text-emphasis-style</td><td></td><td>Chrome</td><td></td><td></td><td></td></tr>
+    "text-fill-color</td><td></td><td>Safari, Chrome</td><td></td><td></td><td></td></tr>
+    "text-indent](http://dev.w3.org/csswg/css3-text/#text-indent)</td><td>Safari, Chrome, Fx, IE, O</td><td></td><td></td><td></td><td></td></tr>
+    "text-justify]</td><td></td><td></td><td></td><td>IE 10</td><td></td></tr>
+[text-justify]: http://msdn.microsoft.com/en-us/library/ie/ms531172(v=vs.85).aspx 
+    "text-kashida-space]</td><td></td><td></td><td></td><td>IE 10</td><td></td></tr>
+[text-kashida-space]: http://msdn.microsoft.com/en-us/library/ie/ms531173(v=vs.85).aspx 
+    "text-line-through</td><td>*Chrome*</td><td></td><td></td><td></td><td></td></tr>
+    "text-line-through-color</td><td>*Chrome*</td><td></td><td></td><td></td><td></td></tr>
+    "text-line-through-mode</td><td>*Chrome*</td><td></td><td></td><td></td><td></td></tr>
+    "text-line-through-style</td><td>*Chrome*</td><td></td><td></td><td></td><td></td></tr>
+    "text-line-through-width</td><td>*Chrome*</td><td></td><td></td><td></td><td></td></tr>
+    "text-orientation</td><td></td><td>Chrome</td><td></td><td></td><td></td></tr>
+    "text-overflow](http://dev.w3.org/csswg/css3-ui/#text-overflow)</td><td>Safari, Chrome, O</td><td></td><td></td><td>IE 10</td><td></td></tr>
+    "text-overflow-ellipsis</td><td>O</td><td></td><td></td><td></td><td></td></tr>
+    "text-overflow-mode</td><td>O</td><td></td><td></td><td></td><td></td></tr>
+    "text-overline</td><td>Chrome</td><td></td><td></td><td></td><td></td></tr>
+    "text-overline-color</td><td>Chrome</td><td></td><td></td><td></td><td></td></tr>
+    "text-overline-mode</td><td>Chrome</td><td></td><td></td><td></td><td></td></tr>
+    "text-overline-style</td><td>Chrome</td><td></td><td></td><td></td><td></td></tr>
+    "text-overline-width</td><td>Chrome</td><td></td><td></td><td></td><td></td></tr>
+    "text-rendering](http://www.w3.org/TR/SVG11/painting.html#TextRenderingProperty)</td><td>Safari 5+, Chrome, Fx</td><td></td><td></td><td></td><td></td></tr>
+    "text-security</td><td></td><td>Safari, Chrome</td><td></td><td></td><td></td></tr>
+    "text-shadow](http://dev.w3.org/csswg/css3-text/#text-shadow)</td><td>Safari, Chrome, Fx, IE 10, O</td><td></td><td></td><td></td><td></td></tr>
+    "text-size-adjust</td><td></td><td>Safari iOS, Chrome</td><td></td><td></td><td></td></tr>
+    "text-stroke</td><td></td><td>Safari, Chrome</td><td></td><td></td><td></td></tr>
+    "text-stroke-color</td><td></td><td>Safari, Chrome</td><td></td><td></td><td></td></tr>
+    "text-stroke-width</td><td></td><td>Safari, Chrome</td><td></td><td></td><td></td></tr>
+    "text-transform](http://dev.w3.org/csswg/css3-text/#text-transform)</td><td>Safari, Chrome, Fx, IE, O</td><td></td><td></td><td></td><td></td></tr>
+    "text-underline</td><td>Chrome</td><td></td><td></td><td></td><td></td></tr>
+    "text-underline-color</td><td>Chrome</td><td></td><td></td><td></td><td></td></tr>
+    "text-underline-mode</td><td>Chrome</td><td></td><td></td><td></td><td></td></tr>
+    "text-underline-position]</td><td></td><td></td><td></td><td>IE 10</td><td></td></tr>
+[text-underline-position]: http://msdn.microsoft.com/en-us/library/ie/ms531176(v=vs.85).aspx 
+    "text-underline-style</td><td>Chrome</td><td></td><td></td><td></td><td></td></tr>
+    "text-underline-width</td><td>Chrome</td><td></td><td></td><td></td><td></td></tr>
+    "top](http://www.w3.org/TR/CSS2/visuren.html#propdef-top)</td><td>Safari, Chrome, Fx, IE, O</td><td></td><td></td><td></td><td></td></tr>
+    "touch-action]</td><td></td><td></td><td></td><td>IE 10</td><td></td></tr>
+[touch-action]: http://msdn.microsoft.com/en-us/library/ie/hh772044(v=vs.85).aspx 
+    "touch-callout</td><td></td><td>Safari iOS</td><td></td><td></td><td></td></tr>
+    "transform](http://dev.w3.org/csswg/css3-transforms/#transform)</td><td>Fx 16+, IE 10, O 12.10+</td><td>Safari, Chrome, O</td><td>Fx</td><td>IE 9</td><td>O</td></tr>
+    "transform-origin](http://dev.w3.org/csswg/css3-transforms/#transform-origin)</td><td>Fx 16, IE 10, O 12.10</td><td>Safari, Chrome, O</td><td>Fx</td><td>IE 9</td><td>O</td></tr>
+    "transform-origin-x](http://developer.apple.com/library/safari/documentation/appleapplications/reference/safaricssref/Articles/StandardCSSProperties.html#//apple_ref/doc/uid/TP30001266-_webkit_transform_origin_x)</td><td></td><td>Safari, Chrome</td><td></td><td></td><td></td></tr>
+    "transform-origin-y](http://developer.apple.com/library/safari/documentation/appleapplications/reference/safaricssref/Articles/StandardCSSProperties.html#//apple_ref/doc/uid/TP30001266-_webkit_transform_origin_y)</td><td></td><td>Safari, Chrome</td><td></td><td></td><td></td></tr>
+    "transform-origin-z](http://developer.apple.com/library/safari/documentation/appleapplications/reference/safaricssref/Articles/StandardCSSProperties.html#//apple_ref/doc/uid/TP30001266-SW22)</td><td></td><td>Safari, Chrome</td><td></td><td></td><td></td></tr>
+    "transform-style](http://dev.w3.org/csswg/css3-transforms/#transform-style)</td><td>Fx 16+, IE 10</td><td>Safari, Chrome</td><td>Fx 10+</td><td></td><td></td></tr>
+    "transition](http://dev.w3.org/csswg/css3-transitions/#transition)</td><td>Fx 16+, IE 10, O 12.10+</td><td>Safari, Chrome, O</td><td>Fx</td><td></td><td>O</td></tr>
+    "transition-delay](http://dev.w3.org/csswg/css3-transitions/#transition-delay)</td><td>Fx 16+, IE 10, O 12.10+</td><td>Safari, Chrome, O</td><td>Fx</td><td></td><td>O</td></tr>
+    "transition-duration](http://dev.w3.org/csswg/css3-transitions/#transition-duration)</td><td>Fx 16+, IE 10, O 12.10+</td><td>Safari, Chrome, O</td><td>Fx</td><td></td><td>O</td></tr>
+    "transition-property](http://dev.w3.org/csswg/css3-transitions/#transition-property)</td><td>Fx 16+, IE 10, O 12.10</td><td>Safari, Chrome, O</td><td>Fx</td><td></td><td>O</td></tr>
+    "transition-timing-function](http://dev.w3.org/csswg/css3-transitions/#transition-timing-function)</td><td>Fx 16+, IE 10, O 12.10+</td><td>Safari, Chrome, O</td><td>Fx</td><td></td><td>O</td></tr>
+    "unicode-bidi](http://dev.w3.org/csswg/css3-writing-modes/#unicode-bidi)</td><td>Safari, Chrome, Fx, IE, O</td><td></td><td>Fx 10+</td><td></td><td></td></tr>
+    "unicode-range](http://developer.apple.com/library/safari/documentation/appleapplications/reference/safaricssref/Articles/StandardCSSProperties.html#//apple_ref/doc/uid/TP30001266-unicode_range)</td><td>Safari, Chrome</td><td></td><td></td><td></td><td></td></tr>
+    "user-drag</td><td></td><td>Safari, Chrome</td><td></td><td></td><td></td></tr>
+    "user-focus](https://developer.mozilla.org/en-US/docs/CSS/-moz-user-focus)</td><td></td><td></td><td>Fx</td><td></td><td></td></tr>
+    "user-input](https://developer.mozilla.org/en-US/docs/CSS/-moz-user-input)</td><td></td><td></td><td>Fx</td><td></td><td></td></tr>
+    "user-modify](https://developer.mozilla.org/en-US/docs/CSS/-moz-user-modify)</td><td></td><td>Safari, Chrome</td><td>Fx</td><td></td><td></td></tr>
+    "user-select]</td><td></td><td>Safari, Chrome</td><td>Fx</td><td>IE 10</td><td></td></tr>
+[user-select]: http://msdn.microsoft.com/en-us/library/ie/hh781492(v=vs.85).aspx 
+    "user-zoom</td><td>Chrome</td><td></td><td></td><td></td><td></td></tr>
+    "vertical-align](http://www.w3.org/TR/CSS1/#vertical-align)</td><td>Safari, Chrome, Fx, IE, O</td><td></td><td></td><td></td><td></td></tr>
+    "visibility](http://dev.w3.org/csswg/css3-box/#the-visibility-property)</td><td>Safari, Chrome, Fx, IE, O</td><td></td><td></td><td></td><td></td></tr>
+    "white-space](http://dev.w3.org/csswg/css3-text/#white-space0)</td><td>Safari, Chrome, Fx, IE, O</td><td></td><td></td><td></td><td></td></tr>
+    "widows](http://dev.w3.org/csswg/css3-break/#widows-orphans)</td><td>Safari, Chrome, IE, O</td><td></td><td></td><td></td><td></td></tr>
+    "width](http://dev.w3.org/csswg/css3-box/#the-width-and-height-properties)</td><td>Safari, Chrome, Fx, IE, O</td><td></td><td></td><td></td><td></td></tr>
+    "window-shadow](https://developer.mozilla.org/en-US/docs/CSS/-moz-window-shadow)</td><td></td><td></td><td>Fx</td><td></td><td></td></tr>
+    "word-break](http://dev.w3.org/csswg/css3-text/#word-break)</td><td>Safari, Chrome, Fx 15+, IE</td><td></td><td></td><td></td><td></td></tr>
+    "word-spacing](http://dev.w3.org/csswg/css3-text/#word-spacing)</td><td>Safari, Chrome, Fx, IE, O</td><td></td><td></td><td></td><td></td></tr>
+    "word-wrap](http://dev.w3.org/csswg/css3-text/#overflow-wrap)</td><td>Safari, Chrome, Fx, IE, O</td><td></td><td></td><td></td><td></td></tr>
+    "wrap</td><td></td><td>Chrome</td><td></td><td></td><td></td></tr>
+    "wrap-flow]</td><td></td><td>Chrome</td><td></td><td>IE 10</td><td></td></tr>
+[wrap-flow]: http://msdn.microsoft.com/en-us/library/ie/hh772045(v=vs.85).aspx 
+    "wrap-margin]</td><td></td><td>Chrome</td><td></td><td>IE 10</td><td></td></tr>
+[wrap-margin]: http://msdn.microsoft.com/en-us/library/ie/hh772042(v=vs.85).aspx 
+    "wrap-padding</td><td></td><td>Chrome</td><td></td><td></td><td></td></tr>
+    "wrap-through]</td><td></td><td>Chrome</td><td></td><td>IE 10</td><td></td></tr>
+[wrap-through]: http://msdn.microsoft.com/en-us/library/ie/hh771900(v=vs.85).aspx
+    "writing-mode": {
+        "spec": ""td><td></td><td>Chrome</td><td></td><td>IE</td><td></td></tr>
+[writing-mode]: http://msdn.microsoft.com/en-us/library/ie/ms531187(v=vs.85).aspx
+    "z-index": {
+        "spec": "http://www.w3.org/TR/CSS2/visuren.html#z-index)</td><td>Safari, Chrome, Fx, IE, O</td><td></td><td></td><td></td><td></td></tr>
+    "zoom": {
+        "spec": ""
+    }</td><td>Safari, Chrome</td><td></td><td></td><td>IE</td><td></td></tr>
+
